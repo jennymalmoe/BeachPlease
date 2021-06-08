@@ -1,0 +1,50 @@
+/* General */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:ital,wght@0,400;0,900;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Pacifico;
+    color: #2c2b2b;
+}
+
+/* Navbar */
+h2 {
+    font-family: Pacifico;
+    letter-spacing: 6px;
+    color: #2c2b2b;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+#menu {
+    font-size: 105%;
+    list-style-type: none;
+    letter-spacing: 3px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 35px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #d2f50d;
+}
