@@ -1,5 +1,5 @@
 /* General */
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:ital,wght@0,400;0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,900;1,900&display=swap');
 
 
 * {
@@ -9,35 +9,41 @@
 }
 
 body {
-    font-family: Pacifico;
-    color: #2c2b2b;
+    font-family: Source Sans Pro;
+    color: rgb(5, 11, 19);
 }
 
 /* Navbar */
+
 h2 {
-    font-family: Pacifico;
+    font-family: Source Sans Pro;
     letter-spacing: 6px;
-    color: #2c2b2b;
+    color: rgb(5, 11, 19);
 }
 
 #logo {
     float: left;
     font-size: 250%;
+    margin-left: 35px;
 }
 
 #logo, #menu {
-    line-height: 75px;
+    line-height: 50px;
 }
 
 #menu {
-    font-size: 105%;
+    font-size: 120%;
     list-style-type: none;
     letter-spacing: 3px;
 }
 
-#menu li {
+#menu ul {
     float: right;
-    margin-right: 35px;
+}
+
+#menu li {
+    margin-right: 35px; 
+    display: inline-block;
 }
 
 #menu a {
@@ -45,6 +51,63 @@ h2 {
     color: inherit;
 }
 
-#menu a:hover {
-    border-bottom: 1px solid #d2f50d;
+.active {
+    border-bottom: 4px solid rgb(5, 11, 19);
 }
+
+/* Hero img */
+
+#hero-img {
+    height: 1200px;
+    width: 100%;
+    background: url(../images/hero_img.jpg) no-repeat center center;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer {
+    height: 1200px;
+    width: 100%;
+    position: relative;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+/* Jumbotron */
+
+#headline, #headline h2 {
+    color: #ffffff;
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+}
+
+#headline {
+    font-size: 90%;
+    font-family: Source Sans Pro;
+    letter-spacing: 4px;
+
+    width: 400px;
+    height: 250px;
+
+    padding-top: 300px;
+    padding-bottom: 300px;
+    padding-left: 10px;
+
+    background-color: rgb(5, 11, 19, 0.95);
+
+    top: 100px;
+    right: 50px;
+
+    position: absolute;
+}
+
+

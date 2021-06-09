@@ -151,7 +151,7 @@ Icons used at the first page to set the tone for the sites design approach.
 * CSS3 - adds styling.
 
 ### Frameworks
-* [Bootstrap "v4.1.3"](https://getbootstrap.com) - used for responsiveness and templates.  
+* [Bootstrap "v4.6"](https://getbootstrap.com) - used for responsiveness and templates.  
 
 Tools and editors:
 
@@ -160,7 +160,6 @@ Tools and editors:
 * [GitHub](https://github.com/) - hosting and version control.
 * [Github Pages](https://pages.github.com/) - hosting service.
 * [Pixelmator](https://www.pixelmator.com/mac/) - used to make logo image and map image.
-* [DesignEvo](https://www.designevo.com/) - used to create logo image.
 * [Coolors](https://coolors.co/) - used to establish color scheme.
 * [Font Awsome](https://fontawesome.com/) - used for icons.
 * [Imgur](https://imgur.com/) - used to create url for images.
@@ -177,6 +176,7 @@ MSP2
 
 * [FreeIcons](https://freeicons.io/) - used for icon in tab.
 * [Google Fonts](https://fonts.google.com/) - used to import fonts.
+* [DesignEvo](https://www.designevo.com/) - used to create logo image.
 
 ## Features
 
