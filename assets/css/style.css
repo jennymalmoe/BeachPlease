@@ -19,8 +19,6 @@ body {
 }
 
 
-
-
 /* Navbar */
 
 .navbar {
@@ -123,15 +121,119 @@ body {
 /* Reasons */
 .reasons-container {
     text-align: center;
-    margin-bottom: 150px;
-    margin-top: 100px;
+    margin-bottom: 70px;
+    margin-top: 30px;
 }
 
-.reasons-container2 {
+.usp-container {
     text-align: center;
     margin-bottom: 70px;
     margin-top: 30px;
 }
+
+/* Text mainpage */
+#rig {
+    max-width:900px;
+    margin:0 auto; 
+    padding:0;
+    background-color:#ffffff;
+}
+
+#rig li {
+    display: inline-block;
+    display:inline;
+    width:25%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    margin-bottom: 100px;
+}
+        
+/* The wrapper for each item */
+.rig-cell {
+    margin:10px;
+    box-shadow:10px 5px 5px rgba(0,0,0,0.3);
+    display: block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+        
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: rgba(19, 17, 5, 0.9); no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    transition:all 0.6s;
+}
+#rig li:hover .rig-overlay {
+    opacity:0.8;
+}
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 30px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    font-size:24px;
+    font-family: 'permanent marker';
+    font-weight:normal!important;
+    top:40%;
+    color:#ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    opacity:0;
+    filter:alpha(opacity=0);/*For older IE*/
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+@media (max-width: 9000px) {
+    #rig li {
+        width:25%;
+    }
+}
+
+@media (max-width: 700px) {
+    #rig li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #rig li {
+        width:50%;
+    }
+}
+
 
 /* Footer */
 

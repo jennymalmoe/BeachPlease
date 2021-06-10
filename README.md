@@ -178,6 +178,8 @@ MSP2 bokstavsordning
 * [Google Fonts](https://fonts.google.com/) - used to import fonts.
 * [DesignEvo](https://www.designevo.com/) - used to create logo image.
 * [Font Awsome](https://fontawesome.com/) - used for icons.
+* [Unsplash](https://unsplash.com/) - Images used were obtained from Unsplash.
+* [Bildbank Region Skåne](https://bildbank.skane.se/) - Images used were obtained from Bildbank Region Skåne.
 
 ## Features
 
