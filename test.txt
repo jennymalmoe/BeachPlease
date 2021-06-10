@@ -1,0 +1,26 @@
+/* Hero img */
+
+#hero-img {
+    height: 1200px;
+    width: 100%;
+    background: url(../images/hero_img.jpg) no-repeat center center;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+/* Hero-text */
+
+#headline, #headline h2 {
+    color: black
+}
+
+#headline {
+    font-size: 100%;
+    font-family: Source Sans Pro;
+    letter-spacing: 4px;
+    top: 200px;
+    right: 400px;
+    font-weight: lighter;
+
+    position: absolute;
+}

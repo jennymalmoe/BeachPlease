@@ -161,7 +161,7 @@ Tools and editors:
 * [Github Pages](https://pages.github.com/) - hosting service.
 * [Pixelmator](https://www.pixelmator.com/mac/) - used to make logo image and map image.
 * [Coolors](https://coolors.co/) - used to establish color scheme.
-* [Font Awsome](https://fontawesome.com/) - used for icons.
+
 * [Imgur](https://imgur.com/) - used to create url for images.
 * [Balsamiq](https://balsamiq.com/) - used to create the wireframes.
 
@@ -172,11 +172,12 @@ Tools and editors:
 * [Am I Responsive](http://ami.responsivedesign.is/) - used for testing responsiveness of the site and mock up image.
 * [Google Maps](https://www.google.se/maps) - used for map image.
 
-MSP2 
+MSP2 bokstavsordning
 
 * [FreeIcons](https://freeicons.io/) - used for icon in tab.
 * [Google Fonts](https://fonts.google.com/) - used to import fonts.
 * [DesignEvo](https://www.designevo.com/) - used to create logo image.
+* [Font Awsome](https://fontawesome.com/) - used for icons.
 
 ## Features
 

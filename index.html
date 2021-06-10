@@ -7,44 +7,136 @@
     <meta name="description" content="Best beaches in Skåne Sweden">
     <title>Beach Please! | The best beaches in Skåne</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,900;1,900&display=swap" rel="stylesheet">
     <link rel="icon" href="assets/images/palm.png" type="image/png" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-    <header>
-        <a href="index.html">
-            <h2 id="logo">Beach Please!</h2>
-        </a>  
-<!-- Navbar --> 
-        <div id="menu">
-            <ul>
-                <li>
-                    <a class="active" href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">Beaches</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
 
+</head>
+
+<body>
+<!-- Nav -->
+    <nav class="navbar navbar-expand-sm">
+        <a href="index.html" class="navbar-brand">Beach Please!</a>
+
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <i class="fa fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-2"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#">Beaches</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item dropdown"></li>
+            </ul>
         </div>
-<!-- /navbar -->
-    </header>
+    </nav>
+<!-- /nav -->
+    
+
+
+
 
 <!-- Hero-img -->
     <section id="hero-outer">
-        <div id="hero-img"></div>
-        <div id="headline">
-            <h2>We bring you the cream of the Skåne coast with these top 10 beaches. Don’t forget your sunscreen!</h2>
+        <div id="hero-img">
+            <div id="headline">
+                <h2>Life's a beach!</h2>
+                <p>
+                There is a lot to love about summer in Scandinavia especially in Skåne, 
+                Sweden’s southernmost county, where you’ll be absolute spoiled for choice when it comes to beautiful beaches. Surrounded by the Baltic Sea to the 
+                south and east, and the Kattegatt and Öresund Strait to the west, Skåne coastline is dotted by countless beaches. 
+                We help you to pick the perfect beach just for you. 
+                </p>
+                <p>P.S. Don’t forget your sunscreen!</p>
+                <button type="button" class="btn btn-dark">Pick a Beach<onclick="window.location.href='#beaches'"></button>
+            </div>
         </div>
     </section>
 <!-- /hero-img -->
 
-<footer >
-    
-</footer>
+
+
+<!-- Text -->
+<div class="container reasons-container">
+        <section class="reasons">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2 class="text-uppercase"><mark>About Absolute Fitness</mark></h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="usp2">
+                        <p>We want to help you live a fit and healthy lifestyle! Many women today have a hectic life. There's a need to make the most of your exercise and to get better results in less time. Absolute Fitness offers just that! Our awesome team is always keen to help, so please call us to discuss your needs.<br>Welcome to the best women only gym and fitness community in Malmö!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+</div>     
+<!-- text -->      
+
+<!-- Footer -->
+ <footer class="mt-auto socialmedia" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    
+                        <ul class="list-inline social-links">
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.seatemperature.org/europe/sweden/skane/">
+                                    <i class="fas fa-temperature-high" aria-hidden="true"></i>
+                                    <span class="sr-only">Water temperature</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                 <a target="_blank" href="https://facebook.com">
+                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://instagram.com">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://twitter.com">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                    <span class="sr-only">LinkedIn</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://youtube.com">
+                                    <i class="fab fa-youtube" aria-hidden="true"></i>
+                                    <span class="sr-only">Youtube</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://pinterest.com">
+                                    <i class="fab fa-pinterest" aria-hidden="true"></i>
+                                    <span class="sr-only">Pinterest</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.accuweather.com/en/se/malm%C3%B6/314779/weather-forecast/314779">
+                                    <i class="fas fa-cloud-sun" aria-hidden="true"></i>
+                                    <span class="sr-only">Weather</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                    <p class="copy">Copyright©2021 | Jenny Borglin | All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- /footer -->
 
 <!--JavaScript links all the way down, so css loads first (popper first)--> 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
