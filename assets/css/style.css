@@ -28,8 +28,9 @@ body {
 .navbar-brand {
     color: #000000;
     font-size: 30px;
-    margin-left: 25px;
+    margin-left: 625px;
     text-decoration: none;
+    letter-spacing: 20px;
 }
 
 .navbar-brand:hover {
@@ -201,8 +202,8 @@ body {
     width:100%;
     text-align:center;
     font-size:24px;
-    font-family: 'permanent marker';
-    font-weight:normal!important;
+    font-family: 'source sans pro';
+    font-weight:lighter;
     top:40%;
     color:#ffffff;
     text-shadow: 2px 2px 4px #000000;
@@ -233,6 +234,26 @@ body {
         width:50%;
     }
 }
+
+/* Beach cards */
+
+.container-cards {
+    
+    
+}
+
+.card {
+   
+}
+
+.card-title {
+    font-size: 25px;
+}
+
+.card-text {
+    font-family: source sans pro;
+}
+
 
 
 /* Footer */
