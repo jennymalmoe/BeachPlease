@@ -20,7 +20,6 @@ body {
 
 
 /* Navbar */
-
 .navbar {
     background-color: #ffffff;
 }
@@ -28,13 +27,17 @@ body {
 .navbar-brand {
     color: #000000;
     font-size: 30px;
-    margin-left: 625px;
-    text-decoration: none;
-    letter-spacing: 20px;
+    margin-left: 700px;
+    letter-spacing: 15px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .navbar-brand:hover {
     color: rgb(5, 11, 19);
+    background: rgba(68, 130, 245, 0.2);
 }
 
 .nav-link {
@@ -44,33 +47,35 @@ body {
 .navbar-nav li a {
     color: rgb(5, 11, 19);
     font-size: 20px;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
-/* göra likadant till de andra sidorna */
+
 .navbar-nav li a:hover {
-    border-bottom: 2px solid red;
+    background: rgba(68, 130, 245, 0.2);
 }
 
 .navbar-toggler {
     color: rgb(5, 11, 19);
 }
-.active {
-    border-bottom: 4px solid rgb(5, 11, 19);
+
+.btn-pick-firstpage {
+    background: rgb(5, 11, 19);
 }
 
 /* Hero img */
-
 #hero-img {
     height: 1100px;
     width: 100%;
-    background: url(../images/hero_img.png) no-repeat center center;
-
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
 #hero-outer {
-    height: 1200px;
+    height: 1100px;
     width: 100%;
     position: relative;
 }
@@ -119,17 +124,26 @@ body {
     
 }
 
-/* Reasons */
-.reasons-container {
+/* Intro */
+.intro-container {
     text-align: center;
-    margin-bottom: 70px;
-    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
-.usp-container {
+.intro {
+
+}
+
+.intro-text {
     text-align: center;
-    margin-bottom: 70px;
-    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.copy {
+    text-align: right;
+    font-size: 15px;
 }
 
 /* Text mainpage */
@@ -235,15 +249,25 @@ body {
     }
 }
 
-/* Beach cards */
-
-.container-cards {
-    
-    
+/* Beaches text */
+.next-swim {
+    font-size: 50px;
 }
 
+.beaches-text {
+    font-size: 20px;
+}
+
+/* Beach cards */
+.container-cards {
+    display: inline; 
+    text-align: center; 
+    
+}
+  
 .card {
-   
+    margin: 2%;
+    margin-left: 75px;
 }
 
 .card-title {
@@ -254,6 +278,29 @@ body {
     font-family: source sans pro;
 }
 
+.beach-icon1 {
+    color: rgb(42, 42, 43);
+    text-align: left;
+}
+
+.beach-icon2 {
+    color: rgb(4, 36, 139);
+    margin-left: 10px;
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 
 /* Footer */
@@ -291,7 +338,7 @@ body {
     background: rgb(252, 227, 5);
 }
 
-.copy {
+.copy-footer {
     font-size: 12px;
     margin-bottom: 20px;
 }
