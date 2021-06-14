@@ -2,129 +2,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,900;1,900&display=swap');
 
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
 
 body {
     font-family: Source Sans Pro;
     color: rgb(5, 11, 19);
+    
 }
-
-
-.row {
-    margin: 0;
-}
-
 
 /* Navbar */
-.navbar {
-    background-color: #ffffff;
-}
+
 
 .navbar-brand {
     color: #000000;
     font-size: 30px;
-    margin-left: 700px;
-    letter-spacing: 15px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.navbar-brand:hover {
-    color: rgb(5, 11, 19);
-    background: rgba(68, 130, 245, 0.2);
+    margin-left: 60px;
+    letter-spacing: 4px;
 }
 
 .nav-link {
-    color: rgb(8, 139, 247);
-}
-
-.navbar-nav li a {
-    color: rgb(5, 11, 19);
+    color: #000000;
     font-size: 20px;
-     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
-.navbar-nav li a:hover {
-    background: rgba(68, 130, 245, 0.2);
-}
-
-.navbar-toggler {
-    color: rgb(5, 11, 19);
-}
-
-.btn-pick-firstpage {
-    background: rgb(5, 11, 19);
-}
-
-/* Hero img */
-#hero-img {
-    height: 1100px;
-    width: 100%;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-#hero-outer {
-    height: 1100px;
-    width: 100%;
-    position: relative;
-}
-
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
-}
-
-/* Hero-text */
-
-#headline {
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    height: 40px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 385px;
-    color: #000000;
+.starter-template {
+    padding: 3rem 1.5rem;
     text-align: left;
+    margin-left: 40px;
 }
 
-#headline h2 {
-    font-size: 40px;
-    font-family: Source Sans Pro;
-    
+.lead {
+    width: 530px;
 }
 
-#headline p {
-    color: #000000;
-    text-align: left;
-
-}
-
-#headline button {
-    background-color: rgb(5, 11, 19, 0.8);
+.btn-primary {
     color: #ffffff;
-    text-transform: uppercase;
-    
+    padding: 27px 50px;
+    font-size: 27px;
+    transition-duration: 2s;
+    height: 100px;
+    width: 250px;   
+    margin: 20px;
+    border-radius: 50px;
+    transition: 2s ease-in-out;
 }
+
+btn-primary:hover {
+    color: yellow;
+    background-color: red;
+    border-color: red;
+    box-shadow: 10px 10px 25px #777;
+    transform: scale(1.1) rotate(360deg);
+}
+
+#hero {
+    background-image: url(../images/hero_img.png);
+    background-size: cover;
+}
+
+.h-txt {
+    padding: 20% 2%;
+}
+
+
+
+
+
+
+
 
 /* Intro */
+
+
+
 .intro-container {
     text-align: center;
     margin-bottom: 10px;
@@ -132,13 +81,14 @@ body {
 }
 
 .intro {
-
+    margin-top: 100px;
+    margin-bottom: 10px;
 }
 
 .intro-text {
     text-align: center;
     margin-bottom: 30px;
-    margin-top: 5px;
+    margin-top: 1px;
 }
 
 .copy {
@@ -197,7 +147,7 @@ body {
     bottom: 0;
     right: 0;
     margin: auto;
-    background: rgba(19, 17, 5, 0.9); no-repeat center 20%;
+    background: rgba(19, 17, 5, 0.9) no-repeat center 20%;
     background-size:50px 50px;
     opacity:0;
     transition:all 0.6s;
@@ -342,5 +292,3 @@ body {
     font-size: 12px;
     margin-bottom: 20px;
 }
-
-
