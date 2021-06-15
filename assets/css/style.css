@@ -233,11 +233,41 @@ btn-primary:hover {
     height: 500px;
 }
 
+/* Contact */
+
+.contact-container {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.contact {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-text {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 1px;
+}
+
+.contact_btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact_img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 /* Footer */
 
 #footer {
-    background-color:rgb(5, 11, 19);
-    color: #fff;
+    
+    color: #000000;
     border-top: 60px;
     border-bottom: 60px;
 }
