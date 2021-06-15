@@ -9,6 +9,12 @@ body {
     
 }
 
+.btn-dark:hover {
+    color: #fff;
+    background: rgba(3, 176, 245, 0.507);
+    border-color: rgba(3, 176, 245, 0.507);
+}
+
 /* Navbar */
 .navbar-brand {
     color: #000000;
@@ -17,11 +23,22 @@ body {
     letter-spacing: 4px;
 }
 
+.navbar-brand:hover {
+    color: #fff;
+    background: rgba(3, 176, 245, 0.507);
+}
+
 .nav-link {
     color: #000000;
     font-size: 20px;
 }
 
+.navbar-nav li a:hover {
+    color: #fff;
+    background: rgba(3, 176, 245, 0.507);
+}
+
+/* Hero */
 .starter-template {
     padding: 3rem 1.5rem;
     text-align: left;
@@ -188,6 +205,14 @@ btn-primary:hover {
 }
 
 /* Beaches text */
+
+.rounded2 {
+    width: 200px;
+    height: 200px;
+    margin-right: 840px;  
+}
+
+
 .next-swim {
     font-size: 50px;
 }
@@ -225,6 +250,7 @@ btn-primary:hover {
     color: rgb(4, 36, 139);
     margin-left: 10px;
 }
+
 
 /* Map */
 
@@ -295,7 +321,8 @@ btn-primary:hover {
 }
 
 .social-links li a i:hover {
-    background: rgb(252, 227, 5);
+    color: #fff;
+    background: rgba(3, 176, 245, 0.507);
 }
 
 .copy-footer {
