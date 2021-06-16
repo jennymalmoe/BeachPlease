@@ -180,6 +180,7 @@ MSP2 bokstavsordning
 * [Font Awsome](https://fontawesome.com/) - used for icons.
 * [Unsplash](https://unsplash.com/) - Images used were obtained from Unsplash.
 * [Bildbank Region Skåne](https://bildbank.skane.se/) - Images used were obtained from Bildbank Region Skåne.
+* [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) - Used for the map.
 
 ## Features
 

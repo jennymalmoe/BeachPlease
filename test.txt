@@ -575,4 +575,27 @@ body {
     margin-bottom: 20px;
 }
 
-
+knapparna:
+<div class="row beaches-btns">
+    <div class="col-sm-6 col-md-4 col-xl-2">
+        <button type="button" class="btn btn-dark destination-btns" id="Sandhammaren">Sandhammaren</button>
+    </div>
+    <div class="col-sm-6 col-md-4 col-xl-2">
+        <button type="button" class="btn btn-dark destination-btns" id="Sandhammaren">Åhus</button>
+    </div>
+    <div class="col-sm-6 col-md-4 col-xl-2">
+        <button type="button" class="btn btn-dark destination-btns" id="Sandhammaren">Västra Hamnen Malmö</button>
+    </div>
+    <div class="col-sm-6 col-md-4 col-xl-2">
+        <button type="button" class="btn btn-dark destination-btns" id="Sandhammaren">Skanör Falsterbo</button>
+    </div>
+    <div class="col-sm-6 col-md-4 col-xl-2">
+        <button type="button" class="btn btn-dark destination-btns" id="Sandhammaren">Mölle och Kullaberg</button>
+    </div>
+    <div class="col-sm-6 col-md-4 col-xl-2">
+        <button type="button" class="btn btn-dark destination-btns" id="Sandhammaren">Stenshuvud</button>
+    </div>
+    <div class="col-sm-6 col-md-4 col-xl-2">
+        <button type="button" class="btn btn-dark destination-btns" id="Sandhammaren">Knäbäckshusen</button>
+    </div>
+</div>

@@ -254,6 +254,19 @@ btn-primary:hover {
 
 /* Map */
 
+.beaches-btns {
+text-align: center;
+}
+
+.destination-btns {
+   width: 130px;
+   height: 50px;
+   margin-bottom: 40px;
+   font-size: 12px;
+   
+   
+}
+
 #map {
     width: 100%;
     height: 500px;
