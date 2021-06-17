@@ -599,3 +599,61 @@ knapparna:
         <button type="button" class="btn btn-dark destination-btns" id="Sandhammaren">Knäbäckshusen</button>
     </div>
 </div>
+
+herotex:
+<section id="hero">
+        <div class="h-txt">
+            <div class="starter-template">
+                <h1>Beach Please!</h1>
+                <p class="text-left lead">There is a lot to love about summer in Scandinavia especially in Skåne, 
+                    Sweden’s southernmost county, where you’ll be absolute spoiled for choice when it comes to beautiful beaches. Surrounded by the Baltic Sea to the 
+                    south and east, and the Kattegatt and Öresund Strait to the west, Skåne coastline is dotted by countless beaches. 
+                    We help you to pick the perfect beach just for you. P.S. Don’t forget your sunscreen!</p>
+                <a href="beaches.html" class="btn btn-dark">Pick a beach</a>
+            </div>
+        </div>
+    </section>
+    och dess css:
+    /* Hero */
+
+
+.btn-primary {
+    color: #ffffff;
+    padding: 27px 50px;
+    font-size: 27px;
+    transition-duration: 2s;
+    height: 100px;
+    width: 250px;   
+    margin: 20px;
+    border-radius: 50px;
+    transition: 2s ease-in-out;
+}
+
+btn-primary:hover {
+    color: yellow;
+    background-color: red;
+    border-color: red;
+    box-shadow: 10px 10px 25px #777;
+    transform: scale(1.1) rotate(360deg);
+}
+
+.hero-container {
+    background-image: url("../images/hero_img.png") no-repeat top left fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+}
+
+.hero-text {
+  border: 1px dotted blue;
+    display: inline-block;
+    max-width: 250px;
+    padding: 10px;
+}
