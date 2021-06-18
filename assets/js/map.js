@@ -45,7 +45,7 @@ function initMap() {
                     <div><i class="fas fa-umbrella-beach beach-icons"<p> National Park with rocky coastland and sandy beaches</p></i></div><i class="beach-icon2"></i></div><i class="beach-icon2"></i></div><i class="beach-icon2"></i></div>
                     <div><i class="fas fa-car beach-icons"<p> Free car park near main entrance</p></i></div><i class="beach-icon2"></i></div><i class="beach-icon2"></i></div><i class=" beach-icon2"></i></div>
                     <div><i class="fas fa-utensils beach-icons"<p> NO</p></i></div><i class="beach-icon2"></i></div><i class="beach-icon2"></i></div><i class="beach-icon2"></i></div>
-                    <div><i class="fas fa-restroom beach-icons"<p>YES</p></i><i class="beach-icon2"></i><i class="beach-icon2"></i><i class="beach-icon2"></i></div>`},
+                    <div><i class="fas fa-restroom beach-icons"<p> YES</p></i><i class="beach-icon2"></i><i class="beach-icon2"></i><i class="beach-icon2"></i></div>`},
                     {"lat": 55.75, "lng": 14.18, "name": "Knäbäckshusen", "information": `<div><i class="fas fa-water beach-icon1"<p> Shallow shore, you have to walk quite far into the sea to swim.</p></i></div><i class="beach-icon2"></i></div><i class="beach-icon2"></i></div><i class="beach-icon2"></i></div>
                     <div><i class="fas fa-umbrella-beach beach-icons"<p> Narrow, several kilometres long natural sandy beach</p></i></div><i class="beach-icon2"></i></div><i class="beach-icon2"></i></div><i class="beach-icon2"></i></div>
                     <div><i class="fas fa-car beach-icons"<p> No official car park</p></i></div><i class="beach-icon2"</i></div><i class="beach-icon2"></i></div><i class=" beach-icon2"></i></div>
