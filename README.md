@@ -35,7 +35,7 @@ ___
     * Existing features
     * Features left to implemented 
 * Testing
-* Bugs
+* Issues and Bugs
 * Deployment 
 * Credits
 
@@ -47,59 +47,51 @@ ___
 
 As a first time visitor I want to:  
 
-* learn about the studio so I can make a decision whether to be member or not. Does the studios serveces offers what I want and need. 
-* be able to easily navigate and find general information about prices, location, classes etc.
-* get a wow impression of the studio. Does it seem like a credible and inspiring place to me? Is it valuble enough for me, as a user, to stay and explore the studio site, and possibly even return?
-* be able to get a free trial period to make a decision to buy a membership or not. It's common practice for studios to offer a free trial period. I might choose another studio if this one doensn't offer that.
-* find out how this studio stands out from the crowd (the studios USP's *better results in less time and remote training*), why should I choose "Absolute Fitness" instead of someone else? 
+* get information about the beaches in Skåne so I can make a decision whether or not it is interesting information for me. Does the page offers what I want and need? 
+* be able to easily navigate and find general information about the beaches, location, information about public transport to get to a beach etc.
+* get a wow impression of Skåne (the beaches in Skåne). Does it seem like a credible and inspiring place to me? Is it valuble enough for me, as a user, to stay and explore the site, and possibly even return?
+* be able to see beaches located on a map.
+* find out how beaches in Skåne stands out from other beaches (the pages USP's *get inspired and visit one of Skånes beaches*), why should I visit Skåne (Skånes beaches) instead of someone else? 
 
-As a returning visitor (existing member, potential member with training experience, potential member with no training experience) I want to:
+As a returning visitor (User who don´t know about Skåne, users who lives nearby (in Skåne or in Sweden), potential visitors who had heard about Skåne, I want to:
 
-* find schedules, contact information and current events.
-* be able to easily navigate and find general information about prices, location, classes etc.
-* be presented with an attractive membership offer and/or a free trial. I need that to make a decision if this is something for me (especially returning visitors with no training exprerience).  
-* find out how this studio stands out from the crowd (the studios USP:s - better results in less time and remote training), why should I choose "Absolute Fitness" instead of someone else? 
-* be asured that this traing method is compateble to me. I don't want to buy a membership, and then find out it's out of my leauge.
-
+* get information about some of the popular beaches in Skåne.
+* be able to easily navigate and find general information about the beaches etc.
+* interact with the site to achieve their personal goals and get answers to questions regarding the beaches.
+* be able to see the beaches locations on a map.
+* find out how these beaches siuts my needs, does it have parking near by, is it childfriendly, are there restrooms nearby etc?
 
 
 ## Strategy
 
 ### Project Goals
 
-The purpose of this project is to *"Build a website for a gym. ...Build a static front-end site to present useful information to users, using all the technologies that you have learned about so far.
-Data is presented in a way that helps users achieve their goals, e.g. learning about a product/service that they are interested in. The presentation of this data advances the site owner's goals, e.g. helps them market a product/service."*
+The purpose of this project is to *"Create a site that calls on the Google Maps API and/or the Google Places API (or similar) to allow users to search for their next holiday destination."*
 (*Code Institute Assessment Handbook*)
 
-### Business Goals
+### Business Goals/Site owners goals
 
-The business goal of the website is to increase the number of members (increase sales) and keep existing members by having an appealing site. This is "Absolute Fitness" fist website. 
+The business goal of the website is to choose a destination for the next trip to the beach or to attract visitors to Skåne by showing off the beautiful beaches of Skåne.
 
 Target audience: Women age 18-65 in the local area (as well as all over geographically, due to the studios remote classes) with limited time resources and women who want to maximize training results in less time than average workouts.
 
 
 ### User Goals
 
-Customer goals of the website is to get information about the studio and get a get a good idea of what it offers. Just as important is the feel the visitor gets about the sites/studios identity. It also allows the customer to take part of an offer. Lastly the costumer will see a professional and inspiring website with a mobile-first approach.
+Users goals of the website is to get information about the beaches of Skåne and get inspired to get there. Users will be able to see an inspiring website with a mobile-first approach that wakes up the users curiosity abot Skåne and their beaches as a potential holiday destination.
 
 
 ## Scope 
 
 ### User Requirements and Expectation
 
-* The site is designed to signal energy, high end and modern.  
+* The site is designed to signal curiosity, inspiration, wanderlust.  
 
-* CTA - call to action. The free trial button should draw user's attention immediatle (without the need to scroll) and gives the user the opportunity to try out the serveces. 
+* To be able to select a beach and see a map with the loacation and relevant information.
 
-* An attractive and brief discription of the studios classes. 
+* Display information about the different beaches and about Skåne.  
 
-* Schedule.
-
-* Prices.
-
-* Covid alert banner. Points out the studios high level of sanitation service to make members feel safe. The alert is easy to change to current offers/event etc.
-
-* Contact information and opening hours. 
+* Be able to reach ot to site owner/Beach Please!
 
 * Social medialinks.
 
@@ -109,7 +101,7 @@ The website is designed to be consistent and intuitive, but at the same time eye
  
 The site consists of four pages. A header that includes business name and a navigation bar and a footer with social media links will be consistent troughout all pages. 
 
-The site focuses on the offer and aims to attract their targetgroup by the style and images. Thats the fist thing a visitor sees. Then the goal is to visit the navlinks in the order they are set. Next step should be "Classes" where the visitor hopefully gets really interested and wants to be a member. Next step presents prices, that makes the vistor even more close to a decision. And lastly some contactinformation and the opportunity to contact the studio.
+The site focuses on beautiful and inspirering images of the beaches to attract visitors to the beaches (and Skåne). Thats the fist thing a visitor sees. Then the goal is to visit the navlinks in the order they are set. Next step should be "Beaches" where the visitor hopefully gets really inspired. Next step presents the map, that makes the vistor even more informed about where Skåne is and where the most beautiful beaches in Skåne are located. And lastly some contactinformation and the opportunity to contact the siteowner and add new beaches destinations ideas.
 
 The information is briefly presented, there isn't not too much information, just enough to make the visitor interested. The visitor will not feel overwhelming (so the user doesn't leave the site and look for another site).
 
@@ -289,21 +281,20 @@ I've been using W3C Markup Validator, W3C CSS Validator, Lighthouse and Am I res
 I've been testing site (friend as well) on different browsers, Chrome, Safari and on differnt devices. 
 
 
-## Bugs
-Here are some I encountered, with the solution.
+## Issues and Bugs
+The developer ran into several issues during the development of the site. These are the most distinguishing ones, along with either the solution or idea to implement in the future. 
 
-During development
+Jumbotron not responsive:
 
-Jumbotron overflow:
-Removed margins and padding and added height in media query.
-Columns not nicely spaced:
-Set margins on top and bottoms.
-Anchor link about ID not jumping to right place:
+Hamburger meny (the three bars) is not lined with logo, shows lower:
+
+There were some extra margin on the map, page could be scrolled from side to side:
 Still figuring that one out.
-Rows to close to each other:
-Set margins and padding.
+Map only had margin on the right, couldnt get margin frpm left:
+
 Content not centering on mobile:
 Set margin and padding.
+
 From validation/testing
 
 Nav section didnt have a heading, got flagged by html validator.
