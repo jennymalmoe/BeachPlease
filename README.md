@@ -118,9 +118,9 @@ The information is briefly presented, there isn't not too much information, just
 
 **Wireframes:** 
 
-* [Mobile](https://github.com/jennymalmoe/MSP1.0/blob/master/assets/docs/wireframes_mobile.pdf) OBS ÄNDRA!
-* [Tablet](https://github.com/jennymalmoe/MSP1.0/blob/master/assets/docs/wireframes_tablet.pdf)
-* [Desktop](https://github.com/jennymalmoe/MSP1.0/blob/master/assets/docs/wireframes_desktop%20.pdf)
+* [Mobile](https://github.com/jennymalmoe/MSP2/blob/5c7096b95e7d0f52131faebcc375e8f3b0f25a3d/assets/docs/mobile_wireframes.pdf) 
+* [Tablet](https://github.com/jennymalmoe/MSP2/blob/5c7096b95e7d0f52131faebcc375e8f3b0f25a3d/assets/docs/tablet_wireframes.pdf)
+* [Desktop](https://github.com/jennymalmoe/MSP2/blob/5c7096b95e7d0f52131faebcc375e8f3b0f25a3d/assets/docs/desktop_wireframes.pdf)
 
 ## Surface
 
