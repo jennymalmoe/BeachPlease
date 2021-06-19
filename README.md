@@ -119,7 +119,7 @@ The information is briefly presented, there isn't not too much information, just
 ### Design Choices
 
 **Colorscheme**
-The site represents highend and feminine values, with a clear message, and offer. The colors are soft, warm, inviting, encouraging, and modern. Characteristics that attract women. I added some accent colors (bright yellow and turquoise) that are used for emphasis my color scheme. These accent colors are bold and vivid and are used spairingly to create an eye catcing moment (used on call to actions buttons and alert bar foremost). 
+The page consists of a white base with pastel colors and black text and elements such as button and icons. The choice of pastel colors was made because the sites beautiful images of the beaches is supposed to be in focus. By avoiding bright colors and have a clean site, the images of the beaches gets the attention by the user. Warm soft colors offer tranquility. I added black as an accent color wich is bold and vivid and are used spairingly to make the text/information to stand out and be as clear as possible. Black is used on call to actions buttons and icons as well, when you hover them, they turn to the pastel soft summer like color palette.  
 
 ![color_scheme](assets/images/color_scheme.png)
 
@@ -289,7 +289,9 @@ Jumbotron not responsive:
 
 Hamburger meny (the three bars) is not lined with logo, shows lower:
 
-There were some extra margin on the map, page could be scrolled from side to side:
+There were some extra margin on the baeches page (could be scrolled from side to side):
+Seemed to be coming from the row margins. I added .row {margin: 0;} to the bottom of my CSS, and now the scroll seems to be gone.
+There were some extra margin on the map page (could be scrolled from side to side):
 Still figuring that one out.
 Map only had margin on the right, couldnt get margin frpm left:
 
@@ -337,7 +339,8 @@ Find the repository, click "Code" button, copy the link shown, in Gitpod, change
 
 
 ## Credits
-* My mentor Adegbenga Adeye for helpfull feedback througout the project.
+* My mentor Oluwaseun Owonikoko for helpfull feedback througout the project.
+* Code Institute tutor support.
 * Fellow students on Slack for a helping hand when I've got stuck.
 * Google for help 24/7!
 

@@ -94,3 +94,7 @@ var InfoObj = [];
   }
 }
 
+
+function OpenInfowindowForMarker(index) {
+    google.maps.event.trigger(markers[index], 'click');
+}

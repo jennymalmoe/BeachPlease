@@ -12,14 +12,18 @@ body {
     border: 0;
 }
 
+.btn {
+    background-color: #000000;
+}
+
 h2 {
     text-transform: uppercase;
 }
 
 .btn-dark:hover {
     color: #fff;
-    background: rgb(5, 11, 19);
-    border-color: rgb(5, 11, 19);
+    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
+    border-color: #ffffff;
 }
 
 
@@ -34,15 +38,19 @@ h2 {
 }
 .navbar-brand {
     color: #000000;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 10px;
     letter-spacing: 4px;
+    font-family: permanent marker;
+    text-shadow: 2px 2px #f8afe6;
     
 }
 
 .navbar-brand:hover {
     color: #fff;
     background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
+    border-radius: 5px 20px;
+    
 }
 
 .nav-link {
@@ -53,6 +61,8 @@ h2 {
 .navbar-nav li a:hover {
     color: #fff;
     background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
+    border-radius: 5px 20px;
+    
 }
 
 .nav-item.active a {
@@ -104,11 +114,34 @@ h2 {
   top:50%;
   left: 50%;
   width: 700px;
-  height: 400px;
+  height: 600px;
   background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
   position: absolute;
   transform: translate(-50%, -50%);
   
+}
+
+.hero-text h2 {
+    font-family: permanent marker;
+    color: #ffffff;
+    font-size: 60px;
+    text-shadow: 2px 2px #050505;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+.hero-text p {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.btn-1 {
+    margin-left: 30px;
+    margin-top: 10px;
+    
 }
 
 
@@ -184,8 +217,8 @@ h2 {
     bottom: 0;
     right: 0;
     margin: auto;
-    background: rgba(19, 17, 5, 0.9) no-repeat center 20%;
-    background-size:50px 50px;
+    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
+    background-size:100%;
     opacity:0;
     transition:all 0.6s;
 }
@@ -204,7 +237,6 @@ h2 {
     text-align:center;
     font-size:24px;
     font-family: 'source sans pro';
-    font-weight:lighter;
     top:40%;
     color:#ffffff;
     text-shadow: 2px 2px 4px #000000;
@@ -243,15 +275,26 @@ h2 {
 .next-swim {
     font-size: 50px;
     padding-left: 40px;
+    
+}
+
+.chair-text {
+    margin-top: 50px;
 }
 
 .beaches-text {
     font-size: 20px;
     padding-left: 40px;
+    
 }
 
 .chair-btn {
-    margin-left: 40px;
+    margin-left: 40px; 
+}
+
+.chair-btn:hover {
+    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
+    border-color: #ffffff;
 }
 
 /* Beach cards */
@@ -266,7 +309,7 @@ h2 {
 .card {
     margin: 0 auto;
     float: none;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     margin-top: 30px;   
     font-family: Source Sans Pro; 
 }
@@ -275,21 +318,19 @@ h2 {
 .card-title h5 {
     font-weight: bolder;
     text-transform:uppercase;
-    background-color:#0E2431;
+    
 }
 
 .card-text p {
     font-size: 20px; 
 }
 
-.container-cards {
-  background-color:#0E2431;
-}
+
 
 .card-title {
     font-size: 35px;
     font-weight: bolder;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all .2s;
@@ -310,7 +351,7 @@ h2 {
 
 .beaches-btns {
 text-align: center;
-
+margin-bottom: 50px;
 }
 
 .destination-btns {
@@ -321,10 +362,10 @@ text-align: center;
 }
 
 #map {
-    width: 100%;
+    width: 80%;
     height: 500px;
-    margin-left: 40px;
-    margin-right: 100px;
+    margin: 0 auto;
+    
     
 }
 
@@ -335,6 +376,7 @@ text-align: center;
     width: 50%;
 }
 
+
 .address {
     color: #774936;
     margin-bottom: 50px;
@@ -344,16 +386,29 @@ text-align: center;
 .contact-container1 {
     margin-bottom: 50px;
     text-align: center;
+    
 }
 
 .contact-container {
     margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .contact_img {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.contact_btn {
+    float: left;
+    width: 130px;
+}
+
+.mb-3 {
+    text-align: left;
+}
+
 
 
 /* Footer */
@@ -389,10 +444,44 @@ text-align: center;
 
 .social-links li a i:hover {
     color: #fff;
-    background: rgba(73, 164, 248, 0.493);
+    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
 }
 
 .copy-footer {
     font-size: 12px;
     margin-bottom: 20px;
+}
+
+.row {
+margin: 0;    
+}
+
+/* Modal */
+.modal-header{
+    background-color: #C38E70;
+}
+
+#cta-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.claim-btn {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #C38E70;
+    width: 200px;
+    height: 40px;
+    letter-spacing: 1px;
+}
+
+.claim-btn:hover,
+.claim-btn:active,
+.claim-btn:focus,
+.claim-btn:active:focus {
+    background: #EDC4B3;
 }
