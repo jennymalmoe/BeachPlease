@@ -125,12 +125,18 @@ The page consists of a white base with pastel colors and black text and elements
 
 **Typography**
 
-MSP2: Meddon, Source Sans Pro. The Roboto font is the main font used throughout the site with Sans-serif as the fallback font. Roboto was developed to balance content density and reading comfort and is pretty subtle, it doesn´t take any attention away from the content. The site has focused to get the visitors attention by powerful headlines. If the headline hooks the visitor, they tend to continue to read the body, if it doesn't they’ll leave. The headline is catchy, in bigger and bolder font, short, inspiring and get the visitor emotionally engaged.  
+Source Sans Pro font is the main font used throughout the site with Permanent Marker as the logo font. Source Sans Pro is a sans serif typeface and feels modern, clean, emotionless font and it's intended use is for user interfaces so it renders very well at small sizes. Roboto was developed to balance content density and reading comfort and is pretty subtle, it doesn´t take any attention away from the content. The site has focused to get the visitors attention by powerful headlines. If the headline hooks the visitor, they tend to continue to read the body, if it doesn't they’ll leave. The headline is catchy, in bigger and bolder font, short, inspiring and get the visitor emotionally engaged. The charismatic combination of the two typefaces compliments the artistic aesthetic and entertaining theme set by the colour palette. 
 
 
 **Imagery**
 
-The sites images are all striking and modern. Most images is of women in a stylish and in a positive environment. 
+Almost ⅔ (two-thirds) of the population affirms to be visual learners, and it’s proven that adding images to accompany information increases people’s retention of said information in their memory after three days from 10% to 65%.
+And this reflects greatly on consumer behaviour, which impacts directly on e-commerce, online business and online marketing:It’s clear: if you’re in e-commerce, online business, or using internet resources in your marketing efforts (and you better be!), photography will be one main component in your creative process, your strategic plan, and your workflow. 
+
+Not only that, but the color combinations in your branding and marketing visuals are also a major factor in how effective they can be!Articles with images get 94% more views.Speak to Viewer’s Primal Desires
+Whether your message is simple or complex, you first need your image to appeal to the public at first glance. You need to catch their eyes and lure them in, interest them in “coming it” to see what you’re offering. And you can do this with a photo, by catering to viewers’ most basic needs and desires.
+
+How? The key is to use images that represent and connect to their primary emotions: longing, curiosity, joy, etc. KÄLLAhttps://www.mdgadvertising.com/marketing-insights/infographics/its-all-about-the-images-infographic/ 
 
 **Icons**
 
@@ -139,8 +145,9 @@ Icons used at the first page to set the tone for the sites design approach.
 ### Technologies Used
 
 ### Languages
-* HTML5 - provides content and structure.
-* CSS3 - adds styling.
+* HTML5 
+* CSS3 
+* JavaScript 
 
 ### Frameworks
 * [Bootstrap "v4.6"](https://getbootstrap.com) - used for responsiveness and templates.  
@@ -151,8 +158,8 @@ Tools and editors:
 * [Gitpod](https://www.gitpod.io/) - used as IDE.
 * [GitHub](https://github.com/) - hosting and version control.
 * [Github Pages](https://pages.github.com/) - hosting service.
-* [Pixelmator](https://www.pixelmator.com/mac/) - used to make logo image and map image.
-* [Coolors](https://coolors.co/) - used to establish color scheme.
+* [Pixelmator](https://www.pixelmator.com/mac/) - used to make logo image and resize images.
+* [jQuery](https://jquery.com/) - jQuery was used to simplify the JavaScript code used.
 
 * [Imgur](https://imgur.com/) - used to create url for images.
 * [Balsamiq](https://balsamiq.com/) - used to create the wireframes.
@@ -160,7 +167,7 @@ Tools and editors:
 * [W3C Markup Validator](https://validator.w3.org/) - used to check html validity.
 * [W3C CSS Validator](https://validator.w3.org/) - used to check css.
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)  - used Lighthouse to check sites performance and the dev tool to check responsiveness. 
-* [Unsplash](https://unsplash.com/) - Images used were obtained from Unsplash.
+
 * [Am I Responsive](http://ami.responsivedesign.is/) - used for testing responsiveness of the site and mock up image.
 * [Google Maps](https://www.google.se/maps) - used for map image.
 
