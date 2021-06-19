@@ -37,11 +37,12 @@ h2 {
     font-size: 30px;
     margin-left: 10px;
     letter-spacing: 4px;
+    
 }
 
 .navbar-brand:hover {
     color: #fff;
-    background: rgba(73, 164, 248, 0.493);
+    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
 }
 
 .nav-link {
@@ -51,7 +52,7 @@ h2 {
 
 .navbar-nav li a:hover {
     color: #fff;
-    background: rgba(73, 164, 248, 0.493);
+    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
 }
 
 .nav-item.active a {
@@ -74,6 +75,7 @@ h2 {
     position: relative;
     margin: 0 auto;
     transform: translate(-50%, -50%);
+    
 }
 
 .hero-outer {
@@ -81,7 +83,7 @@ h2 {
    width: 100%;
    overflow: hidden; 
    position: relative;
-   margin-top: 85px;
+   
 }
 
 @keyframes hero-zoom {
@@ -103,7 +105,7 @@ h2 {
   left: 50%;
   width: 700px;
   height: 400px;
-  background-color: rgba(73, 164, 248, 0.493);
+  background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
   position: absolute;
   transform: translate(-50%, -50%);
   
@@ -117,20 +119,17 @@ h2 {
     margin-top: 10px;
 }
 
-.intro {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 .intro-text {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-top: 1px;
 }
 
 .copy {
     text-align: right;
     font-size: 15px;
+    margin-right: 10px;
 }
 
 /* Beaches presentation */
@@ -139,7 +138,7 @@ h2 {
     margin:0 auto; 
     padding:0;
     background-color:#ffffff;
-    margin-top: 85px;
+    margin-top: 35px;
 }
 
 #rig li {
@@ -156,7 +155,7 @@ h2 {
 
 .rig-cell {
     margin:10px;
-    box-shadow:10px 5px 5px rgba(0,0,0,0.3);
+    
     display: block;
     position: relative;
     overflow:hidden;
@@ -268,18 +267,32 @@ h2 {
     margin: 0 auto;
     float: none;
     margin-bottom: 80px;
-    margin-top: 30px;
-    border-width: 2px;
-    border-color: rgb(5, 11, 19);
-    
+    margin-top: 30px;   
+    font-family: Source Sans Pro; 
+}
+
+
+.card-title h5 {
+    font-weight: bolder;
+    text-transform:uppercase;
+    background-color:#0E2431;
+}
+
+.card-text p {
+    font-size: 20px; 
+}
+
+.container-cards {
+  background-color:#0E2431;
 }
 
 .card-title {
-    font-size: 25px;
-}
-
-.card-text {
-    font-family: source sans pro;
+    font-size: 35px;
+    font-weight: bolder;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all .2s;
 }
 
 .beach-icon1 {
@@ -318,32 +331,23 @@ text-align: center;
 
 /* Contact */
 
-.form-group {
-margin-left: 150px;
-margin-right: 150px;
+#exampleFormControlInput1 {
+    width: 50%;
+}
+
+.address {
+    color: #774936;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contact-container1 {
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .contact-container {
-    text-align: center;
     margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.contact {
-    margin-bottom: 10px;
-    margin-top: 85px;
-}
-
-.contact-text {
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 1px;
-}
-
-.contact_btn {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 150px;
 }
 
 .contact_img {
@@ -351,13 +355,6 @@ margin-right: 150px;
     margin-bottom: 20px;
 }
 
-.form-check-input{
-margin-left: 150px;
-}
-
-.form-check-label {
-    margin-left: 170px;
-}
 
 /* Footer */
 
@@ -374,7 +371,7 @@ margin-left: 150px;
 }
 
 .social-links li a i {
-    width: 25px;
+    width: 32px;
     height: 32px;
     padding: 12px 0;
     margin-top: 20px;

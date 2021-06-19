@@ -41,7 +41,7 @@
         </nav>
         <!-- /nav -->
         <!-- Contact text -->
-        <div class="container contact-container">
+        <div class="container contact-container1">
             <section class="contact">
                 <div class="row">
                     <div class="col-12 my-5">
@@ -59,26 +59,39 @@
             </section>
         </div>
         <!-- contact text -->
-        <!-- Contact -->
-        <form onsubmit="return sendMail(this);">
-            <div class="col-12 form container">
-                <div class="form-group">
-                    <label for="exampleInputName">Full Name</label>
-                    <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Your full name">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-check">
+       
+
+<!-- Contact form -->
+<section id="contact">
+    <div class="container contact-container">
+        <div class="row d-flex justify-content-center pl-0">
+            <div class="col-12 col-6 padding margin">
+                <form onsubmit="return sendMail(this);" id="contactForm">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@ex.com" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">What are your best beach destination?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5" required></textarea>
+                    </div>
+                    <div class="form-check mb-3">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Yes, I would like to subscribe to our email newsletter!</label>
                 </div>
                 <button type="submit" class="btn btn-dark contact_btn">Send</button>
             </div>
-        </form>
-        <!-- /contact -->
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- /contact form -->
+
+
         <!-- Img logo -->
         <div class="text-center contact_img">
             <img src="assets/images/logo.png" class="rounded" alt="#">
