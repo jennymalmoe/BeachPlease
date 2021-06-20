@@ -58,6 +58,8 @@ function initMap() {
                     <div><i class="fas fa-restroom beach-icons"<p> YES</p></i><i class="beach-icon2"></i><i class="beach-icon2"></i><i class="beach-icon2"></i></div>`}
 ];
 
+let markers = [];
+
 var InfoObj = [];
 
     for(i = 0; i < myMarks.length; i++) {
@@ -83,6 +85,8 @@ var InfoObj = [];
       infowindow.open(map, marker);
       InfoObj[0] = infowindow;
   });
+
+markers.push(marker);
 }
 
   function closeOtherInfo() {
@@ -92,7 +96,16 @@ var InfoObj = [];
           InfoObj[0].length = 0;
       }
   }
+
+  
+const dBtns = document.querySelectorAll('.destination-btns');
+    dBtns.forEach((btn, i) => {
+        btn.addEventListener('click', () => {
+            google.maps.event.trigger(markers[i], 'click');
+        })
+    })
 }
+
 
 
 function OpenInfowindowForMarker(index) {

@@ -72,13 +72,12 @@ The purpose of this project is to *"Create a site that calls on the Google Maps 
 ### Business Goals/Site owners goals
 
 The business goal of the website is to choose a destination for the next trip to the beach or to attract visitors to Skåne by showing off the beautiful beaches of Skåne.
-
-Target audience: Women age 18-65 in the local area (as well as all over geographically, due to the studios remote classes) with limited time resources and women who want to maximize training results in less time than average workouts.
+The website will focos on these taget groups: Users - those who is familiar with Skåne and the beaches of Skåne, those who never heard about Skåne and the beaches of Skåne, those who looks for a holiday destination, those who just happans to see the site , those who wants to contribute to add more beaches to the site. Target groups are both those whointentially looks for a holiday destination and those who are currios of Skåne in general.  
 
 
 ### User Goals
 
-Users goals of the website is to get information about the beaches of Skåne and get inspired to get there. Users will be able to see an inspiring website with a mobile-first approach that wakes up the users curiosity abot Skåne and their beaches as a potential holiday destination.
+Users goals of the website is to get information about the beaches of Skåne and get inspired to get there. Users will be able to see an inspiring website with a mobile-first approach that wakes up the users curiosity about Skåne and their beaches as a potential holiday destination. The site signals inspiration due to the beautiful images and is not to take to seriously, thou you can get good information about the locations, links to public transportation and more infomation about Skåne and hotels etc. 
 
 
 ## Scope 
@@ -119,7 +118,7 @@ The information is briefly presented, there isn't not too much information, just
 ### Design Choices
 
 **Colorscheme**
-The page consists of a white base with pastel colors and black text and elements such as button and icons. The choice of pastel colors was made because the sites beautiful images of the beaches is supposed to be in focus. By avoiding bright colors and have a clean site, the images of the beaches gets the attention by the user. Warm soft colors offer tranquility. I added black as an accent color wich is bold and vivid and are used spairingly to make the text/information to stand out and be as clear as possible. Black is used on call to actions buttons and icons as well, when you hover them, they turn to the pastel soft summer like color palette.  
+The page consists of a white base with pastel colors and black text and elements such as button and icons. The choice of pastel colors was made because the sites beautiful images of the beaches is supposed to be in focus. By avoiding bright colors and have a clean site, the images of the beaches gets the attention by the user. Warm soft colors offer tranquility. I added black as an accent color wich is bold and vivid and are used spairingly to make the text/information to stand out and be as clear as possible. Black is used on call to actions buttons and icons as well, when you hover them, they turn to the pastel soft summer like color palette.  The chosen colour scheme was specifically selected in order to define the tone of the
 
 ![color_scheme](assets/images/color_scheme.png)
 
@@ -203,9 +202,8 @@ About Us page:
 * User can send a question or message by filling out the form in "About Us" page.  
 
 General: 
-* User can always return to the homepage by clicking the brand name in upper left corner. 
-* User can click at the mailaddress in the footer and gets directed to mail service in new tab.
-* User can click on the social media icons in the footer and get redirected to social media page in new tabs. 
+* User can always return to the homepage by clicking the brand name in upper left corner (strategely placed top-left). 
+* Footer is conventionally placed at the bottom of the screen, allowing users to click on the icons and get redirected to respektiv page in new tabs outside of the site.. 
 
 
 ### Features left to implement
@@ -294,7 +292,7 @@ The developer ran into several issues during the development of the site. These 
 
 Jumbotron not responsive:
 
-Hamburger meny (the three bars) is not lined with logo, shows lower:
+Hamburger meny (the three bars) is not lined with logo, shows lower: had to add a media query that targets device max width and smaller text-size and remove margin-left.
 
 There were some extra margin on the baeches page (could be scrolled from side to side):
 Seemed to be coming from the row margins. I added .row {margin: 0;} to the bottom of my CSS, and now the scroll seems to be gone.

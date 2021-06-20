@@ -66,18 +66,18 @@
     <div class="container contact-container">
         <div class="row d-flex justify-content-center pl-0">
             <div class="col-12 col-6 padding margin">
-                <form onsubmit="return sendMail(this);" id="contactForm">
+                <form id="contactForm">
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@ex.com" required>
+                        <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@ex.com" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">What are your best beach destination?</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5" required></textarea>
+                        <textarea name="formControl" class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5" required></textarea>
                     </div>
                     <div class="form-check mb-3">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <input name="checkbox" type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Yes, I would like to subscribe to our email newsletter!</label>
                 </div>
                 <button type="submit" class="btn btn-dark contact_btn">Send</button>
@@ -152,7 +152,7 @@
         <!-- /footer -->
 
 <!-- Modal -->
-<div class="modal" tabindex="-1">
+<div id="mail-modal" class="modal" tabindex="-1">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -174,9 +174,9 @@
 <!-- /modal -->
 
 
-        <!-- Link to script file -->
+        <!-- Link to sendEmail.js file -->
         <script src="assets/js/sendEmail.js"></script>
-        <!-- /link to script file -->
+        <!-- /link to sendEmail.js file -->
         <!--JavaScript links all the way down, so css loads first (popper first)--> 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
