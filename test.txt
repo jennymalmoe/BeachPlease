@@ -4,219 +4,250 @@ AIzaSyAH5GI4rG730Rwb_iSrvXNnmrwnGjQl6u8
   type="text/javascript"></script>
 
 
-  index: 
   <!DOCTYPE html>
 <html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Beach please the best beaches in Skåne Sweden">
+        <title>Beach Please! | The best beaches in Skåne</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,900;1,900&display=swap" rel="stylesheet">
+        <link rel="icon" href="assets/images/palm.png" type="image/png"/>
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Beach please the best beaches in Skåne Sweden">
-    <title>Beach Please! | The best beaches in Skåne</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,900;1,900&display=swap" rel="stylesheet">
-    <link rel="icon" href="assets/images/palm.png" type="image/png"/>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
-</head>
+       
 
-<body>
-<!-- Nav -->
-    <nav class="navbar navbar-expand-sm">
-        <a href="index.html" class="navbar-brand">Beach Please!</a>
 
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            <i class="fa fa-bars"></i>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="beaches.html">Beaches</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
-                <li class="nav-item dropdown"></li>
-            </ul>
-        </div>
-    </nav>
-<!-- /nav -->
+    </head>
+    <body>
+ 
     
-<!-- Hero-img -->
-    <div class="container-fluid hero-outer">
-        <div class="row">
-            <div class="col-12">
-                <div class="hero-img">
-                    <div class="headline">
-                        <h2>Life's a beach!</h2>
-                        <p>
-                            There is a lot to love about summer in Scandinavia especially in Skåne, 
-                            Sweden’s southernmost county, where you’ll be absolute spoiled for choice when it comes to beautiful beaches. Surrounded by the Baltic Sea to the 
-                            south and east, and the Kattegatt and Öresund Strait to the west, Skåne coastline is dotted by countless beaches. 
-                            We help you to pick the perfect beach just for you. 
-                        </p>
-                        <p>P.S. Don’t forget your sunscreen!</p>
-                        <a type="button" class="btn btn-dark btn-pick-firstpage" href="beaches.html">Pick a Beach</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<!-- /hero-img -->
 
-<!-- Hero-image-text -->
-<div class="container intro-container">
-        <section class="intro">
-            <div class="row">
-                <div class="col-12 my-5">
-                    <h2 class="text-uppercase">Eight great beaches in Skåne for when the sun finally shines</h2>
-                </div>
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-sm">
+            <a href="index.html" class="navbar-brand">Beach Please!</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="thanks"></span>
+            <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="beaches.html">Beaches</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="map.html">Map</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item dropdown"></li>
+                </ul>
             </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <div class="intro-text">
-                        <p>Skåne is the southernmost province of Sweden. Its climate is more milder than the raw one with which we usually associate Sweden. Thanks to this, in summertime the local beaches are willingly visited by locals and visitors. One of Skåne’s best attractions is its beaches, of which there are plenty. A car is the best way to get around, but if you like the idea of whizzing past wheat fields with the wind in your hair</p>
-                    </div>
-                </div>
+        </nav>
+        <!-- /nav -->
+        <!-- Hero -->
+        <section class="hero-outer">
+            <div class="img-fluid"></div>
+            <div class="hero-text col-12 col-sm-4 col-md-8">
+                <h2>Beach Please!</h2>
+                <p>There is a lot to love about summer in Sweden especially in Skåne, 
+                    Sweden’s southernmost province, where you’ll be absolute spoiled for choice when it comes to beautiful beaches. 
+                    We help you pick the perfect beach just for you.</p>
+                    <p>P.S. Don’t forget your sunscreen!</p>
+                
+                <a href="beaches.html" class="btn btn-1 btn-dark">Pick a beach</a>
             </div>
         </section>
-</div>           
-<!-- hero-image-text -->
-
-<!-- Text-first-page -->
-  <ul id="rig">
-    <li>
-        <a class="rig-cell" href="beaches.html">
-            <img class="rig-img" src="assets/images/sandhammaren.jpg">
-            <span class="rig-overlay"></span>
-            <span class="rig-text"><p>Sandhammaren Beach</p><p>The finest and whitest sand across Sweden and is one of the most beautiful and longest beaches in the country.</p></span>
-        </a>
-    </li>
-    <p class="copy">© Karol Werner</p>
-    <li>
-        <a class="rig-cell" href="beaches.html">
-            <img class="rig-img" src="assets/images/ahus.jpg">
-            <span class="rig-overlay"></span>
-            <span class="rig-text"><p>Åhus Beach</p><p>Täppet is part of a 40-km long stretch of coastline known as Ålakusten, the Eel coast. It stretches from Kristianstad to Österlen and includes the rocky outcrops of Stenshuvud.</p></span>
-        </a>
-    </li>
-    <p class="copy">© Frits Meyst / WideOyster.com</p>
-    <li>
-        <a class="rig-cell" href="beaches.html">
-            <img class="rig-img" src="assets/images/vh.jpg">
-            <span class="rig-overlay"></span>
-            <span class="rig-text"><p>Västra Hamnen Malmö</p></p>beach life in central Malmö
-Combine big-city bustle with relaxing beach life, close to the town centre. Perfect for families and small children, this long, shallow, sandy beach is great for splashing around, sunbathing or diving from the piers.</p></span> 
-        </a>
-    </li>
-    <p class="copy">© Ulf Lindgren</p>
-    <li>
-        <a class="rig-cell" href="beaches.html">
-            <img class="rig-img" src="assets/images/falsterbo.jpg">
-            <span class="rig-overlay"></span>
-            <span class="rig-text"><p>Skanör Falsterbo Beach</p><p>The finest and whitest sand across Sweden and is one of the most beautiful and longest beaches in the country.</p></span>
-        </a>
-    </li>
-    <p class="copy">© Bianca Kramer</p>
-    <li> 
-        <a class="rig-cell" href="beaches.html">
-            <img class="rig-img" src="assets/images/kullaberg.jpg">
-            <span class="rig-overlay"></span>
-            <span class="rig-text"><p>Mölle & Kullaberg</p><p>The picturesque little fishing village of Mölle developed into one of Sweden's first seaside resorts in the1890s. Mölle became known as a den of sin, as women and men bathed together, something that was unthinkable at that time.</p></span>
-        </a>
-    </li>
-    <p class="copy">© Karol Werner</p>
-    <li>
-        <a class="rig-cell" href="beaches.html">
-            <img class="rig-img" src="assets/images/stenshuvud.jpg">
-            <span class="rig-overlay"></span>
-            <span class="rig-text"><p>Stenshuvud</p><p>Sweden's southernmost national park on the east coast of Skåne offers delightful hiking trails viewpoints over the sea and a white sandy beach.</p></span>
-        </a>
-    </li>
-    <p class="copy">skane.com©sydpol.com</p>
-    <li>
-        <a class="rig-cell" href="beaches.html">
-            <img class="rig-img" src="assets/images/knaback.jpg">
-            <span class="rig-overlay"></span>
-            <span class="rig-text"><p>Knäbäckshusen</p><p>What makes Knäbäckshusens Strand so popular and one of the most beautiful beaches in the southern Swedish province of Skåne is its special location and atmosphere.</p></span>
-        </a>
-    </li>
-    <p class="copy">© Frits Meyst / WideOyster.com</p>
-    
-</ul>
-<!-- text -->      
-
-<!-- Footer -->
- <footer class="mt-auto socialmedia" id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    
+       
+        <!-- /hero -->
+        <!-- Fist page intro text -->
+        <div class="container intro-container">
+            <section class="intro">
+                <div class="row">
+                    <div class="col-12 my-5">
+                        <h2 class="text-uppercase">Eight great beaches in Skåne. For when the sun finally shines.</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="intro-text">
+                            <p>Skåne is the southernmost county of Sweden. Its climate is more milder than the raw one with which we usually associate Scandinavia. Thanks to this, in summertime the local beaches are willingly visited by locals and visitors. One of Skåne’s best attractions is its beaches, of which there are plenty. A car is the best way to get around, but if you like the idea of whizzing past wheat fields with the wind in your hair, you could rent a bike to explore Skåne. There is also a great public transport system, that takes you wherever you want. Not a local? Visit <a href="https://www.hotels.com/re10234338/hotell-i-skane-lan-sverige/?pos=HCOM_US&locale=en_US" target="_blank" >Hotels.com</a> to find a place to stay!</p>
+                            <p>No matter your taste in beach, Skåne obliges. From the wild, wind-lashed shores and snuggled-away coves of Kullaberg to exotic Knäbäckshusen, we bring you the cream of the Skåne coast with these top 8 beaches.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- /first page intro text -->
+        
+        <!-- Text-first-page -->
+        <ul id="rig">
+            <li>
+                <a class="rig-cell" href="beaches.html">
+                    <img class="rig-img" src="assets/images/sandhammaren.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">
+                        <p>Sandhammaren Beach</p>
+                        <p>One of the most beautiful and longest beaches in the country...read more</p>
+                    </span>
+                </a>
+            </li>
+            <p class="copy">© Karol Werner</p>
+            <li>
+                <a class="rig-cell" href="beaches.html">
+                    <img class="rig-img" src="assets/images/ahus.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">
+                        <p>Åhus Beach</p>
+                        <p>Part of a 40-km long stretch of coastline known as the Eel coast...read more</p>
+                    </span>
+                </a>
+            </li>
+            <p class="copy">© Frits Meyst / WideOyster.com</p>
+            <li>
+                <a class="rig-cell" href="beaches.html">
+                    <img class="rig-img" src="assets/images/vh.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">
+                        <p>Västra Hamnen Malmö</p>
+                        </p>Beach life in Malmö. Combine big-city bustle with relaxing beach life...read more</p>
+                    </span>
+                </a>
+            </li>
+            <p class="copy">© Ulf Lindgren</p>
+            <li>
+                <a class="rig-cell" href="beaches.html">
+                    <img class="rig-img" src="assets/images/falsterbo.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">
+                        <p>Skanör Falsterbo Beach</p>
+                        <p>Crystal clear and clean water, with a wave ripple formed sand bottom...read more</p>
+                    </span>
+                </a>
+            </li>
+            <p class="copy">© Bianca Kramer</p>
+            <li>
+                <a class="rig-cell" href="beaches.html">
+                    <img class="rig-img" src="assets/images/kullaberg.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">
+                        <p>Mölle & Kullaberg</p>
+                        <p>Swedens most historical place to go for a swim?...read more</p>
+                    </span>
+                </a>
+            </li>
+            <p class="copy">© Karol Werner</p>
+            <li>
+                <a class="rig-cell" href="beaches.html">
+                    <img class="rig-img" src="assets/images/stenshuvud.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">
+                        <p>Stenshuvud</p>
+                        <p>Sweden's southernmost national park on the east coast of Skåne...read more</p>
+                    </span>
+                </a>
+            </li>
+            <p class="copy">skane.com©sydpol.com</p>
+            <li>
+                <a class="rig-cell" href="beaches.html">
+                    <img class="rig-img" src="assets/images/knaback.jpg">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">
+                        <p>Knäbäckshusen</p>
+                        <p>A beautiful, exotic beach, really popular...read more</p>
+                    </span>
+                </a>
+            </li>
+            <p class="copy">© Frits Meyst / WideOyster.com</p>
+            <li>
+                <a class="rig-cell" href="beaches.html">
+                    <img class="rig-img" src="assets/images/ribban.png">
+                    <span class="rig-overlay"></span>
+                    <span class="rig-text">
+                        <p>Ribban Beach</p>
+                        <p>A walk from the city centre....read more</p>
+                    </span>
+                </a>
+            </li>
+            <p class="copy">© Karol Werner</p>
+        </ul>
+        <!-- text -->      
+        <!-- Footer -->
+        <footer class="mt-auto socialmedia" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
                         <ul class="list-inline social-links">
                             <li class="list-inline-item">
                                 <a target="_blank" href="https://www.seatemperature.org/europe/sweden/skane/">
-                                    <i class="fas fa-temperature-high" aria-hidden="true"></i>
-                                    <span class="sr-only">Water temperature</span>
+                                <i class="fas fa-temperature-high" aria-hidden="true"></i>
+                                <span class="sr-only">Water temperature</span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                 <a target="_blank" href="https://facebook.com">
-                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                                    <span class="sr-only">Facebook</span>
+                                <a target="_blank" href="https://facebook.com">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a target="_blank" href="https://instagram.com">
-                                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                                    <span class="sr-only">Instagram</span>
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a target="_blank" href="https://twitter.com">
-                                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                                    <span class="sr-only">LinkedIn</span>
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn</span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a target="_blank" href="https://youtube.com">
-                                    <i class="fab fa-youtube" aria-hidden="true"></i>
-                                    <span class="sr-only">Youtube</span>
+                                <i class="fab fa-youtube" aria-hidden="true"></i>
+                                <span class="sr-only">Youtube</span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a target="_blank" href="https://pinterest.com">
-                                    <i class="fab fa-pinterest" aria-hidden="true"></i>
-                                    <span class="sr-only">Pinterest</span>
+                                <i class="fab fa-pinterest" aria-hidden="true"></i>
+                                <span class="sr-only">Pinterest</span>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a target="_blank" href="https://www.accuweather.com/en/se/malm%C3%B6/314779/weather-forecast/314779">
-                                    <i class="fas fa-cloud-sun" aria-hidden="true"></i>
-                                    <span class="sr-only">Weather</span>
+                                <i class="fas fa-cloud-sun" aria-hidden="true"></i>
+                                <span class="sr-only">Weather</span>
                                 </a>
                             </li>
                         </ul>
-
-                    <p class="copy-footer">Copyright©2021 | Jenny Borglin | All rights reserved</p>
+                        <p class="copy-footer">Copyright©2021 | Jenny Borglin | All rights reserved</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-<!-- /footer -->
+        </footer>
+        <!-- /footer -->
+        <!--JavaScript links all the way down, so css loads first (popper first)--> 
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    </body>
 
-<!--JavaScript links all the way down, so css loads first (popper first)--> 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <!-- Back to top button -->
+        <a class="top-link hide" href="" id="js-top">
+  <i class="fas fa-angle-up fa-3x" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></i>
+</a>
+<!-- /back to top button -->
 
-</body>
 </html>
 
-css:
 /* General */
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,900;1,900&display=swap');
 
+body {
+    font-family: Source Sans Pro;
+    color: rgb(5, 11, 19);
+}
 
 * {
     margin: 0;
@@ -224,86 +255,91 @@ css:
     border: 0;
 }
 
-body {
-    font-family: Source Sans Pro;
-    color: rgb(5, 11, 19);
+h2 {
+    text-transform: uppercase;
 }
 
+.btn {
+    background-color: #000000;
+}
 
-.row {
-    margin: 0;
+.btn-dark:hover {
+    color: #fff;
+    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
+    border-color: #ffffff;
 }
 
 
 /* Navbar */
 .navbar {
+    line-height: 50px;
+    width: 100%;
+    overflow: hidden;
     background-color: #ffffff;
+    
 }
-
 .navbar-brand {
     color: #000000;
-    font-size: 30px;
-    margin-left: 700px;
-    letter-spacing: 15px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    font-size: 25px;
+    margin-left: 0px;
+    letter-spacing: 4px;
+    font-family: permanent marker;
+    text-shadow: 2px 2px #f8afe6;
+    
 }
 
 .navbar-brand:hover {
-    color: rgb(5, 11, 19);
-    background: rgba(68, 130, 245, 0.2);
+    color: #fff;
+    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
+    border-radius: 5px 20px;
+    
 }
 
 .nav-link {
-    color: rgb(8, 139, 247);
-}
-
-.navbar-nav li a {
-    color: rgb(5, 11, 19);
+    color: #000000;
     font-size: 20px;
-     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .navbar-nav li a:hover {
-    background: rgba(68, 130, 245, 0.2);
+    color: #fff;
+    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
+    border-radius: 5px 20px;
+    
 }
 
-.navbar-toggler {
-    color: rgb(5, 11, 19);
+.nav-item.active a {
+    font-weight: bold;
 }
 
-.btn-pick-firstpage {
-    background: rgb(5, 11, 19);
+.navbar-toggler-icon {
+    display: inline;
 }
 
-/* Hero img */
-.hero-img {
-    height: 1100px;
+/* Hero */
+.img-fluid {
+    height: 900px;
     width: 100%;
+    background: url("../images/hero_img.png");
+    
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    background: url("../images/hero_img.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
-    margin-top: 120px;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    
 }
 
 .hero-outer {
-    height: 1100px;
-    width: 100%;
-    position: relative;
+   height: 900px;
+   width: 100%;
+   overflow: hidden; 
+   position: relative;
+   
 }
 
 @keyframes hero-zoom {
@@ -311,79 +347,74 @@ body {
         transform: scale(1);
     }
     to {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 }
 
-/* Hero-text */
-
-.headline {
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    height: 40px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 385px;
-    color: #000000;
-    text-align: left;
+.hero-text {
+  text-align: left;
+  padding: 20px;
+  padding-top: 130px;
+  
+  color: #ffffff;
+  top:50%;
+  left: 50%;
+  width: 700px;
+  height: 600px;
+  background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
+  position: absolute;
+  transform: translate(-50%, -50%);
+  
 }
 
-#headline h2 {
-    font-size: 40px;
-    font-family: Source Sans Pro;
-    
-}
-
-#headline p {
-    color: #000000;
-    text-align: left;
-
-}
-
-#headline button {
-    background-color: rgb(5, 11, 19, 0.8);
+.hero-text h2 {
+    font-family: permanent marker;
     color: #ffffff;
-    text-transform: uppercase;
+    font-size: 60px;
+    text-shadow: 2px 2px #050505;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.hero-text p {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.btn-1 {
+    margin-left: 30px;
+    margin-top: 10px;
     
 }
 
-.text-uppercase {
-    margin-top: 120px;
-    
-}
-
-/* Intro */
+/* Fist page intro text */
 .intro-container {
     text-align: center;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
-.intro {
-    margin-top: 100px;
-    margin-bottom: 10px;
-}
-
 .intro-text {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-top: 1px;
 }
 
 .copy {
     text-align: right;
     font-size: 15px;
+    margin-right: 10px;
 }
 
-/* Text mainpage */
+/* Beaches presentation */
 #rig {
     max-width:900px;
     margin:0 auto; 
     padding:0;
     background-color:#ffffff;
+    margin-top: 35px;
 }
 
 #rig li {
@@ -397,16 +428,14 @@ body {
     margin-bottom: 100px;
 }
         
-/* The wrapper for each item */
 .rig-cell {
     margin:10px;
-    box-shadow:10px 5px 5px rgba(0,0,0,0.3);
+    
     display: block;
     position: relative;
     overflow:hidden;
 }
         
-/* If have the image layer */
 .rig-img {
     display:block;
     width: 100%;
@@ -420,7 +449,6 @@ body {
     transform:scale(1.05);
 }
         
-/* If have the overlay layer */
 .rig-overlay {
     position: absolute;
     display:block;
@@ -429,8 +457,8 @@ body {
     bottom: 0;
     right: 0;
     margin: auto;
-    background: rgba(19, 17, 5, 0.9) no-repeat center 20%;
-    background-size:50px 50px;
+    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
+    background-size:100%;
     opacity:0;
     transition:all 0.6s;
 }
@@ -438,7 +466,6 @@ body {
     opacity:0.8;
 }
 
-/* If have captions */
 .rig-text {
     display:block;
     padding:0 30px;
@@ -449,12 +476,11 @@ body {
     text-align:center;
     font-size:24px;
     font-family: 'source sans pro';
-    font-weight:lighter;
     top:40%;
     color:#ffffff;
     text-shadow: 2px 2px 4px #000000;
     opacity:0;
-    filter:alpha(opacity=0);/*For older IE*/
+    filter:alpha(opacity=0);
     transform:translateY(-20px);
     transition:all .3s;
 }
@@ -482,64 +508,137 @@ body {
 }
 
 /* Beaches text */
+
 .next-swim {
     font-size: 50px;
+    padding-left: 40px;
+}
+
+.chair-text {
+    margin-top: 50px;
 }
 
 .beaches-text {
     font-size: 20px;
+    padding-left: 40px;
+    
+}
+
+.chair-btn {
+    margin-left: 40px; 
+}
+
+.chair-btn:hover {
+    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
+    border-color: #ffffff;
 }
 
 /* Beach cards */
 .container-cards {
     display: inline; 
     text-align: center; 
-    
 }
   
 .card {
-    margin: 2%;
-    margin-left: 75px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 30px;
+    margin-top: 30px;   
+    font-family: Source Sans Pro; 
+}
+
+
+.card-title h5 {
+    font-weight: bolder;
+    text-transform:uppercase;
+}
+
+.card-text p {
+    font-size: 20px; 
 }
 
 .card-title {
-    font-size: 25px;
+    font-size: 35px;
+    font-weight: bolder;
+    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all .2s;
 }
 
-.card-text {
-    font-family: source sans pro;
+.beach-icons {
+    color: rgb(2, 40, 58);
 }
 
 .beach-icon1 {
-    color: rgb(42, 42, 43);
+    color: rgb(2, 40, 58);
     text-align: left;
 }
 
 .beach-icon2 {
-    color: rgb(4, 36, 139);
+    color: rgb(2, 40, 58);
     margin-left: 10px;
 }
 
-/* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
+/* Map */
+.beaches-btns {
+text-align: center;
+margin-bottom: 50px;
+}
+
+.destination-btns {
+   width: 130px;
+   height: 50px;
+   margin-bottom: 40px;
+   font-size: 12px;
+}
+
 #map {
-  height: 100%;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
 }
 
-/* Optional: Makes the sample page fill the window. */
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+/* Contact */
+#exampleFormControlInput1 {
+    width: 50%;
 }
 
+.address {
+    color: #774936;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contact-container1 {
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+
+.contact-container {
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact_img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact_btn {
+    float: left;
+    width: 130px;
+}
+
+.mb-3 {
+    text-align: left;
+}
 
 /* Footer */
-
 #footer {
-    background-color:rgb(5, 11, 19);
-    color: #fff;
+    color: #000000;
     border-top: 60px;
     border-bottom: 60px;
 }
@@ -567,7 +666,8 @@ body {
 }
 
 .social-links li a i:hover {
-    background: rgb(252, 227, 5);
+    color: #fff;
+    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
 }
 
 .copy-footer {
@@ -575,85 +675,104 @@ body {
     margin-bottom: 20px;
 }
 
-knapparna:
-<div class="row beaches-btns">
-    <div class="col-sm-6 col-md-4 col-xl-2">
-        <button type="button" class="btn btn-dark destination-btns" id="Sandhammaren">Sandhammaren</button>
-    </div>
-    <div class="col-sm-6 col-md-4 col-xl-2">
-        <button type="button" class="btn btn-dark destination-btns" id="Sandhammaren">Åhus</button>
-    </div>
-    <div class="col-sm-6 col-md-4 col-xl-2">
-        <button type="button" class="btn btn-dark destination-btns" id="Sandhammaren">Västra Hamnen Malmö</button>
-    </div>
-    <div class="col-sm-6 col-md-4 col-xl-2">
-        <button type="button" class="btn btn-dark destination-btns" id="Sandhammaren">Skanör Falsterbo</button>
-    </div>
-    <div class="col-sm-6 col-md-4 col-xl-2">
-        <button type="button" class="btn btn-dark destination-btns" id="Sandhammaren">Mölle och Kullaberg</button>
-    </div>
-    <div class="col-sm-6 col-md-4 col-xl-2">
-        <button type="button" class="btn btn-dark destination-btns" id="Sandhammaren">Stenshuvud</button>
-    </div>
-    <div class="col-sm-6 col-md-4 col-xl-2">
-        <button type="button" class="btn btn-dark destination-btns" id="Sandhammaren">Knäbäckshusen</button>
-    </div>
-</div>
-
-herotex:
-<section id="hero">
-        <div class="h-txt">
-            <div class="starter-template">
-                <h1>Beach Please!</h1>
-                <p class="text-left lead">There is a lot to love about summer in Scandinavia especially in Skåne, 
-                    Sweden’s southernmost county, where you’ll be absolute spoiled for choice when it comes to beautiful beaches. Surrounded by the Baltic Sea to the 
-                    south and east, and the Kattegatt and Öresund Strait to the west, Skåne coastline is dotted by countless beaches. 
-                    We help you to pick the perfect beach just for you. P.S. Don’t forget your sunscreen!</p>
-                <a href="beaches.html" class="btn btn-dark">Pick a beach</a>
-            </div>
-        </div>
-    </section>
-    och dess css:
-    /* Hero */
-
-
-.btn-primary {
-    color: #ffffff;
-    padding: 27px 50px;
-    font-size: 27px;
-    transition-duration: 2s;
-    height: 100px;
-    width: 250px;   
-    margin: 20px;
-    border-radius: 50px;
-    transition: 2s ease-in-out;
+.row {
+margin: 0;    
 }
 
-btn-primary:hover {
-    color: yellow;
-    background-color: red;
-    border-color: red;
-    box-shadow: 10px 10px 25px #777;
-    transform: scale(1.1) rotate(360deg);
+/* Modal */
+.modal-header{
+    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
 }
 
-.hero-container {
-    background-image: url("../images/hero_img.png") no-repeat top left fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+.modal-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Source Sans Pro;
 }
 
+#close-button {
+    font-family: Source Sans Pro;
 }
 
-.hero-text {
-  border: 1px dotted blue;
-    display: inline-block;
-    max-width: 250px;
-    padding: 10px;
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+
+#button:active {
+  background-color: #555;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Back to top, code from https://getflywheel.com/*/
+.top-link {
+  transition: all .25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3em 3em 0;
+  border-radius: 50%;
+  padding: .25em;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
+  color: #000000;
+  
+  
+  &.show {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  &.hide {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  &:hover {
+    background-color: #E8E8E8;
+  }
+
+
+@media screen and (max-width: 350px) {
+    .navbar-brand {
+        margin-left: 0px;
+        font-size: 19px;
+    }
 }

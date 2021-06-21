@@ -176,6 +176,7 @@ MSP2 bokstavsordning
 * [Bildbank Region Skåne](https://bildbank.skane.se/) - Images used were obtained from Bildbank Region Skåne.
 * [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) - Used for the map.
 https://developpaper.com/css-container-background-10-color-gradient-demo-linear-gradient/ gradient text css
+https://getflywheel.com/ back to top button code
 
 ## Features
 

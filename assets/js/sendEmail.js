@@ -5,17 +5,22 @@ form.addEventListener("submit", function(event) {
         const email = form.email.value;
         const formControl = form.formControl.value;
         const checkbox = form.checkbox.value;
-        console.log (email, formControl, checkbox)
+        const modal = document.getElementById("mail-modal")
+        
 
         // change the values in the emailJS object to be the email, formControl and checkbox variables
-    emailjs.send("gmail", "Beachplease", {
-        "{{from_name}}": form.Beachplease.value,
-        "{{from_email}}": form.formControl.value,
-        "{{project_request}}": form.Beachplease.value
+    emailjs.send("service_w3txv0a", "Beachplease", {
+        
+        from_email: email,
+        message: formControl
     })
     .then(
         function(response) {
-            console.log("SUCCESS", response);
+            modal.style.display = "block";
+            $("#close-button").click(function () {
+                    location.reload();
+                });
+            
         },
         function(error) {
             console.log("FAILED", error);
