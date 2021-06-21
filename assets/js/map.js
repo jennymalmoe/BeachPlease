@@ -106,8 +106,8 @@ const dBtns = document.querySelectorAll('.destination-btns');
     })
 }
 
-
-
 function OpenInfowindowForMarker(index) {
     google.maps.event.trigger(markers[index], 'click');
 }
+
+

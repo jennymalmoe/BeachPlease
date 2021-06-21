@@ -300,6 +300,8 @@ Map only had margin on the right, couldnt get margin frpm left:
 Content not centering on mobile:
 Set margin and padding.
 
+img beach page streches at mobile view - changed heigh so i
+
 From validation/testing
 
 Nav section didnt have a heading, got flagged by html validator.

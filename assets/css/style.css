@@ -75,7 +75,7 @@ h2 {
 /* Hero */
 .img-fluid {
     height: 900px;
-    width: 100%;
+    
     background: url("../images/hero_img.png");
     
     animation-name: hero-zoom;
@@ -88,6 +88,7 @@ h2 {
     position: relative;
     margin: 0 auto;
     transform: translate(-50%, -50%);
+    
     
 }
 
@@ -268,21 +269,25 @@ h2 {
 
 .next-swim {
     font-size: 50px;
-    padding-left: 40px;
 }
 
 .chair-text {
     margin-top: 50px;
+    
 }
 
 .beaches-text {
     font-size: 20px;
-    padding-left: 40px;
+    text-align: left;
     
 }
 
+.img-fluid2 {
+    height: 500px;
+}
+
 .chair-btn {
-    margin-left: 40px; 
+    margin-left: 0px; 
 }
 
 .chair-btn:hover {
@@ -323,18 +328,26 @@ h2 {
   transition: all .2s;
 }
 
+
+/* Marker text */
 .beach-icons {
-    color: rgb(2, 40, 58);
+    color: rgb(5, 116, 131);
 }
 
 .beach-icon1 {
-    color: rgb(2, 40, 58);
+    color: rgb(5, 116, 131);
     text-align: left;
 }
 
 .beach-icon2 {
-    color: rgb(2, 40, 58);
+    color: rgb(5, 116, 131);
     margin-left: 10px;
+}
+
+h3 {
+    color: rgb(5, 116, 131);
+    font-family: permanent marker;
+    font-size: 40px;
 }
 
 /* Map */
