@@ -1,12 +1,10 @@
 # Beach Please!
 
-*No matter your taste in beach, Skåne obliges. From the wild, wind-lashed shores of the Atlantic coast to mountain-fringed Arctic bays where whales raise their tails, and the sunlit, snuggled-away coves of Italy and Greece, we bring you the cream of the European coast with these top 20 beaches. Don’t forget your sunscreen.*
-
 [View live website here!](https://jennymalmoe.github.io/MSP1.0/)
 
 [View GitHub repository here!](https://github.com/jennymalmoe/MSP1.0)
 
-BILD PÅ ALLA ENHETER
+![site on different devices](assets/images/mock_up.png) 
 
 ## Contents
 
@@ -38,8 +36,6 @@ ___
 * Issues and Bugs
 * Deployment 
 * Credits
-
-![site on different devices](assets/images/mockup.png)
 
 # UX
 

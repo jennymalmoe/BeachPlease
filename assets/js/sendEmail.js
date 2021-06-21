@@ -9,9 +9,9 @@ form.addEventListener("submit", function(event) {
 
         // change the values in the emailJS object to be the email, formControl and checkbox variables
     emailjs.send("gmail", "Beachplease", {
-        "{{from_name}}": contactForm.email.value,
-        "{{from_email}}": contactForm.formControl.value,
-        "{{project_request}}": contactForm.checkbox.value
+        "{{from_name}}": form.Beachplease.value,
+        "{{from_email}}": form.formControl.value,
+        "{{project_request}}": form.Beachplease.value
     })
     .then(
         function(response) {
