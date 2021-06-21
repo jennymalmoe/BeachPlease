@@ -369,6 +369,14 @@ margin-bottom: 50px;
     margin: 0 auto;
 }
 
+.pink_logo {
+    margin-left: 550px;
+    width: 230px;
+    height: 230px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 /* Contact */
 #exampleFormControlInput1 {
     width: 50%;
@@ -393,7 +401,7 @@ margin-bottom: 50px;
 }
 
 .contact_img {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
