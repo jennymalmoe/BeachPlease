@@ -14,6 +14,13 @@ body {
 
 h2 {
     text-transform: uppercase;
+    font-family: permanent marker;
+    font-size: 40px;
+}
+
+h5 {
+    font-family: permanent marker;
+    
 }
 
 .btn {
@@ -48,7 +55,7 @@ h2 {
 .navbar-brand:hover {
     color: #fff;
     background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
-    border-radius: 5px 20px;
+    border-radius: 50% 20% / 10% 40%;
     
 }
 
@@ -60,7 +67,7 @@ h2 {
 .navbar-nav li a:hover {
     color: #fff;
     background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
-    border-radius: 5px 20px;
+    border-radius: 50% 20% / 10% 40%;
     
 }
 
@@ -283,7 +290,8 @@ h2 {
 }
 
 .img-fluid2 {
-    height: 500px;
+    height: 470px;
+    margin-bottom: 20px;
 }
 
 .chair-btn {
@@ -310,11 +318,6 @@ h2 {
 }
 
 
-.card-title h5 {
-    font-weight: bolder;
-    text-transform:uppercase;
-}
-
 .card-text p {
     font-size: 20px; 
 }
@@ -331,23 +334,24 @@ h2 {
 
 /* Marker text */
 .beach-icons {
-    color: rgb(5, 116, 131);
+    color: rgb(1, 150, 113);
 }
 
 .beach-icon1 {
-    color: rgb(5, 116, 131);
+    color: rgb(1, 150, 113);
     text-align: left;
 }
 
 .beach-icon2 {
-    color: rgb(5, 116, 131);
+    color: rgb(1, 150, 113);
     margin-left: 10px;
 }
 
 h3 {
-    color: rgb(5, 116, 131);
+    color: rgb(1, 150, 113);
     font-family: permanent marker;
-    font-size: 40px;
+    font-size: 30px;
+    letter-spacing: 3px;
 }
 
 /* Map */
@@ -379,7 +383,7 @@ margin-bottom: 50px;
 
 /* Contact */
 #exampleFormControlInput1 {
-    width: 50%;
+    width: 60%;
 }
 
 .address {
@@ -431,7 +435,7 @@ margin-bottom: 50px;
     height: 32px;
     padding: 12px 0;
     margin-top: 20px;
-    border-radius: 50%;
+    border-radius: 50% 20% / 10% 40%;
     font-size: 20px;
     line-height: 7px;
     text-align: center;
@@ -449,7 +453,7 @@ margin-bottom: 50px;
 }
 
 .copy-footer {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 20px;
 }
 
@@ -526,7 +530,7 @@ margin: 0;
   align-items: center;
   justify-content: center;
   margin: 0 3em 3em 0;
-  border-radius: 50%;
+  border-radius: 50% 20% / 10% 40%;
   padding: .25em;
   width: 80px;
   height: 80px;
@@ -555,3 +559,4 @@ margin: 0;
         font-size: 19px;
     }
 }
+

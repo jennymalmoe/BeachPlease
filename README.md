@@ -177,6 +177,9 @@ MSP2 bokstavsordning
 * [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) - Used for the map.
 https://developpaper.com/css-container-background-10-color-gradient-demo-linear-gradient/ gradient text css
 https://getflywheel.com/ back to top button code
+https://travelshop.se/en/category/Rent-a-bike/ rent a bike
+https://www.skanetrafiken.se/ public transport
+https://sv.hotels.com/re10234338/hotell-i-skane-lan-sverige/?rffrid=sem.hcom.SE.google.003.00.09.DT.s.kwrd=c.509405665433.121229622458.12614762520..aud-887569466082:dsa-977057223095.9062395...Cj0KCQjwlMaGBhD3ARIsAPvWd6jo7v0bVASDjI1yI91ckFr_0HemTt27lEC0977AiRrv3gN6HFP_izQaAjqeEALw_wcB.aw.ds&PSRC=&gclid=Cj0KCQjwlMaGBhD3ARIsAPvWd6jo7v0bVASDjI1yI91ckFr_0HemTt27lEC0977AiRrv3gN6HFP_izQaAjqeEALw_wcB
 
 ## Features
 
@@ -300,7 +303,7 @@ Map only had margin on the right, couldnt get margin frpm left:
 Content not centering on mobile:
 Set margin and padding.
 
-img beach page streches at mobile view - changed heigh so i
+img beach page streches at mobile view - changed the heigh and it worked out fine. On desktop view I wanted to move the img to the right closer to the text, had a big problem doing that. At the end I had to change the divs from col-lg-6 (both had that) to col-lg-8, resp col-lg-4 since even if the img didnt taking all the space, the space will still be rendered for the div even if it didnt make use of alll of the space. 
 
 From validation/testing
 
