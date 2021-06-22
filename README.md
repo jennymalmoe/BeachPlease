@@ -1,8 +1,8 @@
 # Beach Please!
 
-[View live website here!](https://jennymalmoe.github.io/MSP1.0/)
+[View live website here!](https://jennymalmoe.github.io/BeachPlease/)
 
-[View GitHub repository here!](https://github.com/jennymalmoe/MSP1.0)
+[View GitHub repository here!](https://github.com/jennymalmoe/BeachPlease)
 
 ![site on different devices](assets/images/mock_up.png) 
 
@@ -10,7 +10,7 @@
 
 ___
 
-* UX OBS LÄNKA ALLA RUBRIKER!!!
+* UX 
 * Strategy
 * User Stories
     * Project Goals
@@ -80,23 +80,23 @@ Users goals of the website is to get information about the beaches of Skåne and
 
 ### User Requirements and Expectation
 
-* The site is designed to signal curiosity, inspiration, wanderlust.  
+* The site is designed to signal easygoing, summer, fun, inspiration, wanderlust.  
 
 * To be able to select a beach and see a map with the loacation and relevant information.
 
 * Display information about the different beaches and about Skåne.  
 
-* Be able to reach ot to site owner/Beach Please!
+* Be able to reach out to site owner/Beach Please!
 
 * Social medialinks.
 
 ## Structure
 
-The website is designed to be consistent and intuitive, but at the same time eye catching. The most importent content is presented in the home page (offer and call to action as well). The business name is placed top-left corner, since users tend to read/look top-left corner moves down and right from there. 
+The website is designed to be consistent and intuitive, but at the same time funny and easygoing. The most importent content is presented in the home page (offer and call to action as well). The business name is placed top-left corner, since users tend to read/look top-left corner moves down and right from there. 
  
-The site consists of four pages. A header that includes business name and a navigation bar and a footer with social media links will be consistent troughout all pages. 
+The site consists of four pages. A header that includes brand name and a navigation bar and a footer with social media and weather links will be consistent troughout all pages. 
 
-The site focuses on beautiful and inspirering images of the beaches to attract visitors to the beaches (and Skåne). Thats the fist thing a visitor sees. Then the goal is to visit the navlinks in the order they are set. Next step should be "Beaches" where the visitor hopefully gets really inspired. Next step presents the map, that makes the vistor even more informed about where Skåne is and where the most beautiful beaches in Skåne are located. And lastly some contactinformation and the opportunity to contact the siteowner and add new beaches destinations ideas.
+The site focuses on inviting and inspirering images of the beaches to attract visitors to the beaches (and Skåne). Thats the fist thing a visitor sees. Then the goal is to visit the navlinks in the order they are set. Next step should be "Beaches" where the visitor hopefully gets really inspired. Next step presents the map, that makes the vistor even more informed about where Skåne is and where the most beautiful beaches in Skåne are located. And lastly some contactinformation and the opportunity to contact the siteowner and add own beaches destinations ideas.
 
 The information is briefly presented, there isn't not too much information, just enough to make the visitor interested. The visitor will not feel overwhelming (so the user doesn't leave the site and look for another site).
 
@@ -114,13 +114,13 @@ The information is briefly presented, there isn't not too much information, just
 ### Design Choices
 
 **Colorscheme**
-The page consists of a white base with pastel colors and black text and elements such as button and icons. The choice of pastel colors was made because the sites beautiful images of the beaches is supposed to be in focus. By avoiding bright colors and have a clean site, the images of the beaches gets the attention by the user. Warm soft colors offer tranquility. I added black as an accent color wich is bold and vivid and are used spairingly to make the text/information to stand out and be as clear as possible. Black is used on call to actions buttons and icons as well, when you hover them, they turn to the pastel soft summer like color palette.  The chosen colour scheme was specifically selected in order to define the tone of the
+The page consists of a white base with pastel colors and black text and elements such as button and icons. The choice of pastel colors was made because the sites beautiful images of the beaches is supposed to be in focus. By avoiding bright colors and have a clean site, the images of the beaches gets the attention by the user. Warm soft colors offer tranquility. I added black as an accent color wich is bold and vivid and are used spairingly to make the text/information to stand out and be as clear as possible. Black is used on call to actions buttons and icons as well, when you hover them, they turn to the pastel soft summer like color palette.  The chosen colour scheme was specifically selected in order to define the tone/vibe of the page.
 
 ![color_scheme](assets/images/color_scheme.png)
 
 **Typography**
 
-Source Sans Pro font is the main font used throughout the site with Permanent Marker as the logo font. Source Sans Pro is a sans serif typeface and feels modern, clean, emotionless font and it's intended use is for user interfaces so it renders very well at small sizes. Roboto was developed to balance content density and reading comfort and is pretty subtle, it doesn´t take any attention away from the content. The site has focused to get the visitors attention by powerful headlines. If the headline hooks the visitor, they tend to continue to read the body, if it doesn't they’ll leave. The headline is catchy, in bigger and bolder font, short, inspiring and get the visitor emotionally engaged. The charismatic combination of the two typefaces compliments the artistic aesthetic and entertaining theme set by the colour palette. 
+Source Sans Pro font is the main font used throughout the site with Permanent Marker as the logo and headers font. Source Sans Pro is a sans serif typeface and feels modern, clean, emotionless font and it's intended use is for user interfaces so it renders very well at small sizes. It's subtle and it doesn´t take any attention away from the content. The site has focused to get the visitors attention by powerful headlines. If the headline hooks the visitor, they tend to continue to read the body, if it doesn't they’ll leave. The headline is catchy, in bigger and bolder font, short, inspiring and get the visitor emotionally engaged. The charismatic combination of the two typefaces compliments the artistic aesthetic and entertaining theme set by the colour palette. 
 
 
 **Imagery**
