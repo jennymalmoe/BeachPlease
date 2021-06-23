@@ -122,6 +122,8 @@ Map page
 Contact page
 ![Contact page](assets/images/lighthouse_contact.png)
 
+Also got some positive feedback at Slack:s "Peer code review".
+
 ### User testing
 
 Friends and family were asked to test and give me feedback of the site and documentation to point out potential bugs and user experience issues. Their helpful advice helped me create a better experience.

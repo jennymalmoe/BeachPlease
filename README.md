@@ -6,7 +6,7 @@
 
 ![site on different devices](assets/images/mock_up.png) 
 
-## Contents
+## Table of contents
 
 ___
 
@@ -68,19 +68,19 @@ The purpose of this project is to *"Create a site that calls on the Google Maps 
 ### Business Goals/Site owners goals
 
 The business goal of the website is to choose a destination for the next trip to the beach or to attract visitors to Skåne by showing off the beautiful beaches of Skåne.
-The website will focos on these taget groups: Users - those who is familiar with Skåne and the beaches of Skåne, those who never heard about Skåne and the beaches of Skåne, those who looks for a holiday destination, those who just happans to see the site , those who wants to contribute to add more beaches to the site. Target groups are both those whointentially looks for a holiday destination and those who are currios of Skåne in general.  
+The website will focus on following taget groups: Users - those who are familiar with Skåne and the beaches of Skåne, those who never heard about Skåne and the beaches of Skåne, those who looks for a holiday destination, those who has an interest and wants to contribute to add more beaches to the site a user that regulary checks in to see if there are any updates (new beaches). Target groups are in other words: those who intentially looks for a holiday destination, those who are curious of Skåne in general and those who hasn't thought of visit Skåne at all previosly but gets inspired by the site to do that.  
 
 
 ### User Goals
 
-Users goals of the website is to get information about the beaches of Skåne and get inspired to get there. Users will be able to see an inspiring website with a mobile-first approach that wakes up the users curiosity about Skåne and their beaches as a potential holiday destination. The site signals inspiration due to the beautiful images and is not to take to seriously, thou you can get good information about the locations, links to public transportation and more infomation about Skåne and hotels etc. 
+Users goals of the website is to get inspired to visit the beaches of Skåne and information about the beaches of Skåne and get highly inspired to go there. Users will be able to see an inspiring, positive, easygoing-feel website with a mobile-first approach that wakes up the users curiosity about Skåne and their beaches as a potential holiday destination. The site signals inspiration, due to the beautiful images and soft colors is not to take to seriously, but user will be able to get good information about the locations, links to related activities like bike rentals, hotels etc. 
 
 
 ## Scope 
 
 ### User Requirements and Expectation
 
-* The site is designed to signal easygoing, summer, fun, inspiration, wanderlust.  
+* The site is designed to signal easygoing, summer, fun times, inspiration, wanderlust.  
 
 * To be able to select a beach and see a map with the loacation and relevant information.
 
@@ -88,27 +88,22 @@ Users goals of the website is to get information about the beaches of Skåne and
 
 * Be able to reach out to site owner/Beach Please and add my own suggestions!
 
-* Social medialinks.
+* Be presented to sites social media through links.
 
 ## Structure
 
-The website is designed to be consistent and intuitive, but at the same time funny and easygoing. The most importent content is presented in the home page (offer and call to action as well). The business name is placed top-left corner, since users tend to read/look top-left corner moves down and right from there. 
+The website is designed to be consistent and intuitive, but at the same time funny and easygoing. The most importent content is presented in the home page (call to action as well to get linked directly to the beaches page). The brand name is placed top-left corner, since users tend to read/look top-left corner moves down and right from there. 
  
 The site consists of four pages. A header that includes brand name and a navigation bar and a footer with social media and weather links will be consistent troughout all pages. 
 
-The site focuses on inviting and inspirering images of the beaches to attract visitors to the beaches (and Skåne). Thats the fist thing a visitor sees. Then the goal is to visit the navlinks in the order they are set. Next step should be "Beaches" where the visitor hopefully gets really inspired. Next step presents the map, that makes the vistor even more informed about where Skåne is and where the most beautiful beaches in Skåne are located. And lastly some contactinformation and the opportunity to contact the siteowner and add own beaches destinations ideas.
+The site focuses on inviting and inspirering images of the beaches to attract visitors to the beaches (and Skåne). That's the fist thing the users sees when entering the site. Then the goal is to visit the navlinks in the order they are set. Next step should be "Beaches" where the visitor hopefully gets really inspired. Next step presents the map, that makes the vistor even more informed about where Skåne is and where the most beautiful beaches in Skåne are located. And lastly some contactinformation and the opportunity to contact the siteowner and add own beaches destinations ideas.
 
-The information is briefly presented, there isn't not too much information, just enough to make the visitor interested. The visitor will not feel overwhelming (so the user doesn't leave the site and look for another site).
+The information is briefly presented, there isn't not too much information, just enough to make the visitor interested. The visitor will not feel overwhelming (so the user doesn't get overwhelmed leave the site and look for another site).
 
-A UX study (Lin, 2004) found that good use of whitespace between paragraphs, and in the left and right margins, increases comprehension by almost 20%.
+The site has throughout a lot of space between headings, paragraphs, images, buttons etc to signal lightwight, not to sirous, clear, not to much facts. Insted the sites signals warmth, friendly, soft, youth, inspiration. Even the content reflect those signals by short compelling copy on text and buttons, Also features like back-to-top button has smooth scrolling to make user experince pleasant.
 
-You definitely want to use whitespace in your landing page, because of its impact on user experience. Font color, cover photo, and all components stand out better surrounded by whitespace.
+All of the design choices are made to make the site a good user experience. 
 
-youth short compelling copy both on text and btn:s. call to action, btn clickable. 
-
-Smooth scrolling for better ux small effort clicking back to top, logo, brandname. 
-
-Footer element to be relevant. 
 ## Skeleton 
 
 **Wireframes:** 
@@ -130,20 +125,15 @@ The page consists of a white base with pastel colors and black text and elements
 
 Source Sans Pro font is the main font used throughout the site with Permanent Marker as the logo and headers font. Source Sans Pro is a sans serif typeface and feels modern, clean, emotionless font and it's intended use is for user interfaces so it renders very well at small sizes. It's subtle and it doesn´t take any attention away from the content. The site has focused to get the visitors attention by powerful headlines. If the headline hooks the visitor, they tend to continue to read the body, if it doesn't they’ll leave. The headlines font is funny and bigger, bolder and inspiring and will hopefully get the visitor emotionally engaged and get a feel for the easygoing funny site. The charismatic combination of the two fonts compliments the artistic aesthetic and entertaining theme set by the colour palette. 
 
-
 **Imagery**
 
-Almost ⅔ (two-thirds) of the population affirms to be visual learners, and it’s proven that adding images to accompany information increases people’s retention of said information in their memory after three days from 10% to 65%.
-And this reflects greatly on consumer behaviour, which impacts directly on e-commerce, online business and online marketing:It’s clear: if you’re in e-commerce, online business, or using internet resources in your marketing efforts (and you better be!), photography will be one main component in your creative process, your strategic plan, and your workflow. 
-
-Not only that, but the color combinations in your branding and marketing visuals are also a major factor in how effective they can be!Articles with images get 94% more views.Speak to Viewer’s Primal Desires
-Whether your message is simple or complex, you first need your image to appeal to the public at first glance. You need to catch their eyes and lure them in, interest them in “coming it” to see what you’re offering. And you can do this with a photo, by catering to viewers’ most basic needs and desires.
-
-How? The key is to use images that represent and connect to their primary emotions: longing, curiosity, joy, etc. KÄLLAhttps://www.mdgadvertising.com/marketing-insights/infographics/its-all-about-the-images-infographic/ 
+Most users teds to be visual learners, and by adding images to accompany information increases people’s retention of said information in their memory.
+This reflects greatly on consumer behaviour, which impacts directly on online business. Therefore images is one main component in this site, my strategic plan, and my workflow. 
+Articles and sites with images tends to get much more views and interests. Whether the sites message is simple or complex, the first thing the site needs to focus on is the images to appeal to the public at first glance. You need to catch their eyes and lure them in, interest them in “coming it” to see what you’re offering. 
 
 **Icons**
 
-Icons used at the first page to set the tone for the sites design approach. 
+Icons used in footer to set the tone for the sites design approach. 
 
 ### Technologies Used
 
@@ -177,6 +167,7 @@ Tools and editors:
 * [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) - Used for the map.
 * [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview) - used to customize map.
 * [Hotels.com](https://sv.hotels.com/re10234338/hotell-i-skane-lan-sverige/?rffrid=sem.hcom.SE.google.003.00.09.DT.s.kwrd=c.509405665433.121229622458.12614762520..aud-887569466082:dsa-977057223095.9062395...Cj0KCQjwlMaGBhD3ARIsAPvWd6jo7v0bVASDjI1yI91ckFr_0HemTt27lEC0977AiRrv3gN6HFP_izQaAjqeEALw_wcB.aw.ds&PSRC=&gclid=Cj0KCQjwlMaGBhD3ARIsAPvWd6jo7v0bVASDjI1yI91ckFr_0HemTt27lEC0977AiRrv3gN6HFP_izQaAjqeEALw_wcB) - link to hotels in Skåne site.
+* [JSHint](https://jshint.com/)
 * [jQuery](https://jquery.com/) - jQuery was used to simplify the JavaScript code used.
 * [Pixelmator](https://www.pixelmator.com/mac/) - used to resize images.
 * [Skånetrafiken](https://www.skanetrafiken.se/) - link to public transport site.
@@ -220,122 +211,32 @@ General:
 
 ### Features left to implement
 
-On the home/hisory page, I'd like to create a quiz that the user can take part in to test their knowledge about Cornwall after reading the 'Beginner's Guide To Cornwall'.
+Widen the information and inspiration by adding good diving spots, good surfplaces, snorkeling facilities etc.
 
-Display a clickable icon as a link to a forum page where the user can dicsuss Cornwall further with other friendly visitors.
+Add more beaches.
 
-Gallery Page - A seperate page to showcase images of Cornwall and visitors' experiences of the range of activities, beach walks etc. on offer. This would give the user a more concrete idea of what to expect from a visit to Cornwall.
+Include more information at markers pop up to give the user an even more information about the beach.
 
-Include more markers and information to give the user an even more extensive view of what Cornwall has to offer.
+Add more links to relevant facilities like restaurants, bed and breakfast, camping places etc.
 
-On the scroll of the page, the hero image would zoom in.
+Possibly collaborations with relevant businesses. 
 
 ## Testing
 
-!!!However, the documentation is quite brief lacking necessary sections for the development life cycle such as testing and features for future release.
+[Link to Testing file](testing.md)
 
-I have been testing using Chrome Dev tool throughout, from day one. First time testing. 
-
-all of my own code passed through all validators, but some of my borrowed code has some errors, all features works and looks fine though. I chose to stick with the back-to-top button though the errors, since I feel it really completes the look and feel of my page style. I made that choice (also for my js validation that had errors) based on that all features works as expected and it looks as expected.
-
-The HTML ive tested with HTML Validator which gave me the following results:
-
-Warning:
-
-Navbar section lacks heading
-Errors:
-
-Attribute a not allowed on element a at this poin
-Possible misuse of aria-label
-Fixes:
-
-Changed section to div
-Remove a Attribute
-Moved aria-label to correct position
-Responsiveness
-
-Implementation Ive used Bootstrap throughout the project to ensure maximum responsibility. Ive tested with devtools and Lambdatest.
-
-Results Responsiveness was as to be expected, except for the navbar, which didnt collapse on click, which in turn, covered a big portion of the content. I was not happy. Luckily my mentor gave me a JavaScript script, which solved the problem!
-
-Verdict After resolving the navbar issue, everything is responsive and the test has passed.
-
-Design
-
-Implementation The design of the site was based on the design of the Horizon Zero Dawn website, using 'look-a-like' fonts, as the fonts used are custom for them. I used some of the colors and styles for a sense of familiarity for people who know the game and would attract people who dont know the game yet.
-
-Results I feel the use of fonts and colors really add up to the content and make for a well balanced whole. I did change the opacity of the jumbotrons as some people told me the text was hard to read.
-
-Verdict Everything is working and looks good. So this test has passed.
-
-Contact form
-
-Implementation The contactform is used to contact the site owner. I got this form from the Bootstrap site and customized it to my own needs. Form validation was implemented at the same time, so users need to put in a value into every form field, before being able to push the Send button. As of now it is not possible to send the form, so for the time being there is no feedback.
-
-Results The contactform is working as intended, formfields are validated.
-
-Verdict Form validation works, so test passed.
-
-!!!Missing out on functional testing details and user story testing. 
-The testing needs to be done in a stepwise and detailed manner in terms of -
-Give it a step by step format eg.
-Expected -Site is expected to do X why the user does Y
-Testing - Tested the site by doing Y
-Result - The site did not respond due to A,B,C
-or
-Result - The site acted as normally and it did Y
-Fix - I did Z to the code because something was missing
-Please refer to the Sample Readme -  https://github.com/Code-Institute-Solutions/SampleREADME
-The README describes the testing process very briefly with only testing outcome pictures presented and the bugs are reported at a quite high level without details either. However, it is unknown that how the testing is conducted. It is suggested to include testing details and report related bugs/issues.
-
-I've been using W3C Markup Validator, W3C CSS Validator, Lighthouse and Am I responsive to test and check my project;
-
-![W3CValidator_html.png](assets/images/W3CValidator_html.png) 
-![W3CValidator_css.png](assets/images/W3CValidator_css.png) 
-![Lighthouse_mobile.png](assets/images/Lighthouse_mobile.png) 
-![Lighthouse_desktop.png](assets/images/Lighthouse_desktop.png) 
-![mockup.png](assets/images/mockup.png)
-
-I've been testing site (friend as well) on different browsers, Chrome, Safari and on differnt devices. 
-
+ Comment: All of my own code passed through all validators, but some of my borrowed code has some errors, all features works and looks fine though. I chose to stick with the back-to-top button though the errors, since I feel it really completes the look and feel of my page style. I made that choice (also for my js validation that had errors) based on that all features works as expected and it looks as expected.
 
 ## Issues and Bugs
-The developer ran into several issues during the development of the site. These are the most distinguishing ones, along with either the solution or idea to implement in the future. 
 
-Jumbotron not responsive:
+The developer ran into several issues during the development of the site. These are the most distinguishing ones, along with either the solution or idea to implement in the future: 
 
-Hamburger meny (the three bars) is not lined with logo, shows lower: had to add a media query that targets device max width and smaller text-size and remove margin-left.
+* Hamburger meny (the three bars) was not lined with logo/brand, showed lower than logo. I had to add a media query that targets device max width, change to smaller text-size and removed the margin-left. Then it looked like it was supposed to.
 
-There were some extra margin on the baeches page (could be scrolled from side to side):
-Seemed to be coming from the row margins. I added .row {margin: 0;} to the bottom of my CSS, and now the scroll seems to be gone.
-There were some extra margin on the map page (could be scrolled from side to side):
-Still figuring that one out.
-Map only had margin on the right, couldnt get margin frpm left:
+* There were some extra margin on the beaches page (it could be scrolled from side to side). It seemed it had to do with the row margins. I added .row {margin: 0;} and then the scroll ability disappeared. 
 
-Content not centering on mobile:
-Set margin and padding.
+* Top imgage at beaches page streches at mobile view - changed the heigh and it worked out fine. On desktop view I wanted to move the img to the right closer to the text, had a big problem doing that. At the end I had to change the divs from col-lg-6 (both had that) to col-lg-8, resp col-lg-4 since even if the img didnt taking all the space, the space will still be rendered for the div even if it didnt make use of alll of the space. 
 
-img beach page streches at mobile view - changed the heigh and it worked out fine. On desktop view I wanted to move the img to the right closer to the text, had a big problem doing that. At the end I had to change the divs from col-lg-6 (both had that) to col-lg-8, resp col-lg-4 since even if the img didnt taking all the space, the space will still be rendered for the div even if it didnt make use of alll of the space. 
-
-From validation/testing
-
-Nav section didnt have a heading, got flagged by html validator.
-Changed section tag for div, as nav doesnt need a heading per se.
-Double a tag on lines with links:
-Removed a from target tag.
-Possible misuse of aria-label:
-Moved aria-label and rel from the i tag to the a tag, where they belong.
-Navbar links not collapsing on click on mobile:
-Trying some js for this.
-From peer code review
-
-Overflow:
-Changed margins and padding on multiple elements and removed hover effect on img to prevent overflow.
-Navbar not hiding on click:
-js fixed the job :)
-Changed opacity on jumbotrons as some people found it hard to read.
-Images with hover effect where overlapping a bit.
-Reduced the size of the hover.
 
 ## Deployment 
 This project is deployed using GitHub Pages. This is how I deployed my GitHub Repository via GitHub Pages:
