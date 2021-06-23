@@ -38,31 +38,30 @@ User goals
 
 Manual testing was conducted on all elements that appears throughout the pages. 
 
-All nav bar links were clicked and verified that they redirected the user to the correct part of the website. Also brand logo.
-By reloading the website I reasured that my heo image were scaled up as supposed. 
-User can easily see where they are since nav bar is active, tested all pages and active sign works as expected.
-When the mouse was hovered over navbar items, buttons, back to top button, icons the colorfull background was presented as expected. 
-By clicking the button "Pick a beach", user was redirected to the beaches page as expected. 
-All links in text content links as they are supposed to.
-The hovering over postcards on home page works as supposed and all are linked correctly to beaches page.
-Back to top button works fina throughout all pages.
-All logos at the bottom of every page is linked to homepage as expected.
-All icons in footer links where user is supposed to be redirected. 
-The "beach map" button on beaches page works fine and links the user to map page as expected.
-Each of the different beach cards buttons were clicked and it was verified that all linked to map page.
-Each of the different map buttons were clicked and it was verified that all linked to map markers as supposed.
-Each of the different map markers were clicked and it was verified that all presented information as supposed.
-Each link in the bottom of marker pop up was verified to link to public transportation site.
-All map features works as they are supposed to, zoom in, out, street view, map/satellite view.
-Contact form works as supposed, user need to fill in both email and message to be able to send contact form, I tried to send without first email, then message. Checkbox works. Modal showing when contact form is send, close button on modal works as expected. 
-I tested all pages and every part of those pages in Chrome Dev tools (desktop, iPad, iPad Pro iPhoneX, iPhone 6/7/8 plus and Am I Responsive and all parts of the site is responsive as expected at all devices. 
+* All nav bar links were clicked and verified that they redirected the user to the correct part of the website. Also brand logo.
+* By reloading the website I reasured that my heo image were scaled up as supposed. 
+* User can easily see where they are since nav bar is active, tested all pages and active sign works as expected.
+* When the mouse was hovered over navbar items, buttons, back to top button, icons the colorfull background was presented as expected. 
+* By clicking the button "Pick a beach", user was redirected to the beaches page as expected. 
+* All links in text content links as they are supposed to.
+* The hovering over postcards on home page works as supposed and all are linked correctly to beaches page.
+* Back to top button works fina throughout all pages.
+* All logos at the bottom of every page is linked to homepage as expected.
+* All icons in footer links where user is supposed to be redirected. 
+* The "beach map" button on beaches page works fine and links the user to map page as expected.
+* Each of the different beach cards buttons were clicked and it was verified that all linked to map page.
+* Each of the different map buttons were clicked and it was verified that all linked to map markers as supposed.
+* Each of the different map markers were clicked and it was verified that all presented information as supposed.
+* Each link in the bottom of marker pop up was verified to link to public transportation site.
+* All map features works as they are supposed to, zoom in, out, street view, map/satellite view.
+* Contact form works as supposed, user need to fill in both email and message to be able to send contact form, I tried to send without first email, then message. Checkbox works. Modal showing when contact form is send, close button on modal works as expected. 
+* I tested all pages and every part of those pages in Chrome Dev tools (desktop, iPad, iPad Pro iPhoneX, iPhone 6/7/8 plus and Am I Responsive and all parts of the site is responsive as expected at all devices. 
 
 ### Automated testing
 
 Code validation
 
-As mentioned in readme all of my own code passed through all validators, but some of my borrowed code has some errors, all features works and looks fine though.
-I chose to stick with the back-to-top button though the errors, since I feel it really completes the look and feel of my page style. Didn't want another button. 
+Comment: All of my own code passed through all validators, but some of my borrowed code had some errors when ran it through the validators, all features do work and looks fine though (even with the errors in the validators). I chose to stick with the back-to-top button though the errors in the validator, since I feel that my design and that button really completes the look and feel of my page style. So I made that choice (also for som of my js validation that had errors) based on that all features works as expected and looks as expected.
 
 W3C Markup Validator was used to validate the HTML code:
 Home page

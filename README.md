@@ -226,7 +226,7 @@ Possibly collaborations with relevant businesses.
 
 [Link to Testing file](testing.md)
 
- Comment: All of my own code passed through all validators, but some of my borrowed code has some errors, all features works and looks fine though. I chose to stick with the back-to-top button though the errors, since I feel it really completes the look and feel of my page style. I made that choice (also for my js validation that had errors) based on that all features works as expected and it looks as expected.
+ Comment: All of my own code passed through all validators, but some of my borrowed code had some errors when ran it through the validators, all features do work and looks fine though (even with the errors in the validators). I chose to stick with the back-to-top button though the errors in the validator, since I feel that my design and that button really completes the look and feel of my page style. So I made that choice (also for som of my js validation that had errors) based on that all features works as expected and looks as expected.
 
 ## Issues and Bugs
 
