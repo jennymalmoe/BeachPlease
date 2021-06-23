@@ -17,6 +17,7 @@ ___
 User goals
 
 * As a vistor I want to get a positive feel for the site and get inspired to visit one of the beaches presented.
+* As a visitor I want to be able to interact whit page content.
 * As a visitor I want to be able to navigate the site easeasily and to be consistent and intuitive.
 * As a visitor I want to be presented with (just enough) information about the different beaches and about Skåne.
 * As a visitor I want the CTA/buttons to be clearly clickable. 

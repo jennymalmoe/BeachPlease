@@ -83,6 +83,8 @@ Users goals of the website is to get inspired to visit the beaches of Skåne and
 
 * The site is designed to signal easygoing, summer, fun times, inspiration, wanderlust.  
 
+* Offer the user to interact by increase user interaction by a interactive map and contact form. 
+
 * To be able to select a beach and see a map with the loacation and relevant information.
 
 * Display information about the different beaches and about Skåne.  
