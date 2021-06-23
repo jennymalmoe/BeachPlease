@@ -104,7 +104,7 @@ A UX study (Lin, 2004) found that good use of whitespace between paragraphs, and
 
 You definitely want to use whitespace in your landing page, because of its impact on user experience. Font color, cover photo, and all components stand out better surrounded by whitespace.
 
-youth
+youth short compelling copy both on text and btn:s. call to action, btn clickable. 
 ## Skeleton 
 
 **Wireframes:** 
@@ -153,45 +153,42 @@ Icons used at the first page to set the tone for the sites design approach.
 
 Tools and editors:
 
-* [Git](https://git-scm.com/) - used for version control.
-* [Gitpod](https://www.gitpod.io/) - used as IDE.
-* [GitHub](https://github.com/) - hosting and version control.
-* [Github Pages](https://pages.github.com/) - hosting service.
-* [Pixelmator](https://www.pixelmator.com/mac/) - used to make logo image and resize images.
-* [jQuery](https://jquery.com/) - jQuery was used to simplify the JavaScript code used.
-
-* [Imgur](https://imgur.com/) - used to create url for images.
-* [Balsamiq](https://balsamiq.com/) - used to create the wireframes.
-
-* [W3C Markup Validator](https://validator.w3.org/) - used to check html validity.
-* [W3C CSS Validator](https://validator.w3.org/) - used to check css.
-* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)  - used Lighthouse to check sites performance and the dev tool to check responsiveness. 
 
 * [Am I Responsive](http://ami.responsivedesign.is/) - used for testing responsiveness of the site and mock up image.
-* [Google Maps](https://www.google.se/maps) - used for map image.
-* Google cloud platform
-* emailjs.send
-
-MSP2 bokstavsordning
-
-* [FreeIcons](https://freeicons.io/) - used for icon in tab.
-* [Google Fonts](https://fonts.google.com/) - used to import fonts.
-* [DesignEvo](https://www.designevo.com/) - used to create logo image.
-* [Font Awsome](https://fontawesome.com/) - used for icons.
-* [Unsplash](https://unsplash.com/) - Images used were obtained from Unsplash.
+* [Balsamiq](https://balsamiq.com/) - used to create the wireframes.
 * [Bildbank Region Skåne](https://bildbank.skane.se/) - Images used were obtained from Bildbank Region Skåne.
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)  - used Lighthouse to check sites performance and the dev tool to check responsiveness. 
+* [DesignEvo](https://www.designevo.com/) - used to create logo image.
+* [Develop Paper](https://developpaper.com/css-container-background-10-color-gradient-demo-linear-gradient/) - gradient text and background.
+* [EmailJS](https://www.emailjs.com/) - used to send email from JavaScript. 
+* [Fly Wheel](https://getflywheel.com/layout/sticky-back-to-top-button-tutorial/) - back to top button code.
+* [Freeformatter](https://www.freeformatter.com/) - used formatter (html), validators (html, CSS, JavaScript), code beautifier (CSS, JavaScript).
+* [FreeIcons](https://freeicons.io/) - used for icon in tab.
+* [Font Awsome](https://fontawesome.com/) - used for icons.
+* [Git](https://git-scm.com/) - used for version control. 
+* [GitHub](https://github.com/) - hosting and version control.
+* [Github Pages](https://pages.github.com/) - hosting service.
+* [Gitpod](https://www.gitpod.io/) - used as IDE.
+* [Google Fonts](https://fonts.google.com/) - used to import fonts.
 * [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) - Used for the map.
-https://developpaper.com/css-container-background-10-color-gradient-demo-linear-gradient/ gradient text css
-https://getflywheel.com/ back to top button code
-https://travelshop.se/en/category/Rent-a-bike/ rent a bike
-https://www.skanetrafiken.se/ public transport
-https://sv.hotels.com/re10234338/hotell-i-skane-lan-sverige/?rffrid=sem.hcom.SE.google.003.00.09.DT.s.kwrd=c.509405665433.121229622458.12614762520..aud-887569466082:dsa-977057223095.9062395...Cj0KCQjwlMaGBhD3ARIsAPvWd6jo7v0bVASDjI1yI91ckFr_0HemTt27lEC0977AiRrv3gN6HFP_izQaAjqeEALw_wcB.aw.ds&PSRC=&gclid=Cj0KCQjwlMaGBhD3ARIsAPvWd6jo7v0bVASDjI1yI91ckFr_0HemTt27lEC0977AiRrv3gN6HFP_izQaAjqeEALw_wcB
+* [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview) - used to customize map.
+* [Hotels.com](https://sv.hotels.com/re10234338/hotell-i-skane-lan-sverige/?rffrid=sem.hcom.SE.google.003.00.09.DT.s.kwrd=c.509405665433.121229622458.12614762520..aud-887569466082:dsa-977057223095.9062395...Cj0KCQjwlMaGBhD3ARIsAPvWd6jo7v0bVASDjI1yI91ckFr_0HemTt27lEC0977AiRrv3gN6HFP_izQaAjqeEALw_wcB.aw.ds&PSRC=&gclid=Cj0KCQjwlMaGBhD3ARIsAPvWd6jo7v0bVASDjI1yI91ckFr_0HemTt27lEC0977AiRrv3gN6HFP_izQaAjqeEALw_wcB) - link to hotels in Skåne site.
+* [jQuery](https://jquery.com/) - jQuery was used to simplify the JavaScript code used.
+* [Pixelmator](https://www.pixelmator.com/mac/) - used to resize images.
+* [Skånetrafiken](https://www.skanetrafiken.se/) - link to public transport site.
+* [Travelshop](https://travelshop.se/en/category/Rent-a-bike/) - link to rental bicycles site.
+* [Unsplash](https://unsplash.com/) - Images used were obtained from Unsplash.
+* [W3C Markup Validator](https://validator.w3.org/) - used to check html validity.
+* [W3C CSS Validator](https://validator.w3.org/) - used to check css.
 
 ## Features
 
 ### Existing features
 
 Smooth scrolling for better ux
+map
+contact
+
 
 Home page:
 * CTA at homepage allows user to take part of a free trail offer by clicking the yellow button. 
