@@ -100,7 +100,11 @@ The site focuses on inviting and inspirering images of the beaches to attract vi
 
 The information is briefly presented, there isn't not too much information, just enough to make the visitor interested. The visitor will not feel overwhelming (so the user doesn't leave the site and look for another site).
 
+A UX study (Lin, 2004) found that good use of whitespace between paragraphs, and in the left and right margins, increases comprehension by almost 20%.
 
+You definitely want to use whitespace in your landing page, because of its impact on user experience. Font color, cover photo, and all components stand out better surrounded by whitespace.
+
+youth
 ## Skeleton 
 
 **Wireframes:** 
@@ -166,6 +170,7 @@ Tools and editors:
 * [Am I Responsive](http://ami.responsivedesign.is/) - used for testing responsiveness of the site and mock up image.
 * [Google Maps](https://www.google.se/maps) - used for map image.
 * Google cloud platform
+* emailjs.send
 
 MSP2 bokstavsordning
 
@@ -185,6 +190,8 @@ https://sv.hotels.com/re10234338/hotell-i-skane-lan-sverige/?rffrid=sem.hcom.SE.
 ## Features
 
 ### Existing features
+
+Smooth scrolling for better ux
 
 Home page:
 * CTA at homepage allows user to take part of a free trail offer by clicking the yellow button. 

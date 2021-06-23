@@ -1,546 +1,519 @@
 /* General */
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,900;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,900;1,900&display=swap');
 body {
-    font-family: Source Sans Pro;
-    color: rgb(5, 11, 19);
+	font-family: Source Sans Pro;
+	color: rgb(5, 11, 19);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 h2 {
-    text-transform: uppercase;
-    font-family: permanent marker;
-    font-size: 40px;
+	text-transform: uppercase;
+	font-family: permanent marker;
+	font-size: 40px;
 }
 
 h5 {
-    font-family: permanent marker;
-    
+	font-family: permanent marker;
 }
 
 .btn {
-    background-color: #000000;
+	background-color: #000000;
 }
 
 .btn-dark:hover {
-    color: #fff;
-    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
-    border-color: #ffffff;
+	color: #fff;
+	background: linear-gradient(45deg, rgba(254, 172, 94, 0.5), rgba(199, 121, 208, 0.5), rgba(75, 192, 200, 0.5));
+	border-color: #ffffff;
 }
 
+
 /* Navbar */
+
 .navbar {
-    line-height: 50px;
-    width: 100%;
-    overflow: hidden;
-    background-color: #ffffff;
-    
+	line-height: 50px;
+	width: 100%;
+	overflow: hidden;
+	background-color: #ffffff;
 }
+
 .navbar-brand {
-    color: #000000;
-    font-size: 25px;
-    margin-left: 0px;
-    letter-spacing: 4px;
-    font-family: permanent marker;
-    text-shadow: 2px 2px #f8afe6;
+	color: #000000;
+	font-size: 25px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+	font-family: permanent marker;
+	text-shadow: 2px 2px #f8afe6;
 }
 
 .navbar-brand:hover {
-    color: #fff;
-    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
-    border-radius: 50% 20% / 10% 40%;
+	color: #fff;
+	background: linear-gradient(45deg, rgba(254, 172, 94, 0.5), rgba(199, 121, 208, 0.5), rgba(75, 192, 200, 0.5));
+	border-radius: 50% 20% / 10% 40%;
 }
 
 .nav-link {
-    color: #000000;
-    font-size: 20px;
+	color: #000000;
+	font-size: 20px;
 }
 
 .navbar-nav li a:hover {
-    color: #fff;
-    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
-    border-radius: 50% 20% / 10% 40%;
+	color: #fff;
+	background: linear-gradient(45deg, rgba(254, 172, 94, 0.5), rgba(199, 121, 208, 0.5), rgba(75, 192, 200, 0.5));
+	border-radius: 50% 20% / 10% 40%;
 }
 
 .nav-item.active a {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .navbar-toggler-icon {
-    display: inline;
+	display: inline;
 }
 
+
 /* Hero */
+
 .img-fluid {
-    height: 900px;
-    background: url("../images/hero_img.png");
-    animation-name: hero-zoom;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin: 0 auto;
-    transform: translate(-50%, -50%);
+	height: 900px;
+	background: url("../images/hero_img.png");
+	animation-name: hero-zoom;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin: 0 auto;
+	transform: translate(-50%, -50%);
 }
 
 .hero-outer {
-   height: 900px;
-   width: 100%;
-   overflow: hidden; 
-   position: relative;
+	height: 900px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
 }
 
 @keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.1);
+	}
 }
 
 .hero-text {
-  text-align: left;
-  padding: 20px;
-  padding-top: 130px;
-  
-  color: #ffffff;
-  top:50%;
-  left: 50%;
-  width: 700px;
-  height: 600px;
-  background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
-  position: absolute;
-  transform: translate(-50%, -50%);
+	text-align: left;
+	padding: 20px;
+	padding-top: 130px;
+	color: #000000;
+	top: 50%;
+	left: 50%;
+	width: 700px;
+	height: 600px;
+	background: linear-gradient(45deg, rgba(254, 172, 94, 0.5), rgba(199, 121, 208, 0.5), rgba(75, 192, 200, 0.5));
+	position: absolute;
+	transform: translate(-50%, -50%);
 }
 
 .hero-text h2 {
-    font-family: permanent marker;
-    color: #ffffff;
-    font-size: 60px;
-    text-shadow: 2px 2px #050505;
-    margin-left: 30px;
-    margin-top: 10px;
+	font-family: permanent marker;
+	color: #ffffff;
+	font-size: 60px;
+	text-shadow: 2px 2px #050505;
+	margin-left: 30px;
+	margin-top: 10px;
 }
 
 .hero-text p {
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 10px;
-    font-size: 18px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 10px;
+	font-size: 18px;
 }
 
 .btn-1 {
-    margin-left: 30px;
-    margin-top: 10px;
+	margin-left: 30px;
+	margin-top: 10px;
 }
 
+
 /* Fist page intro text */
+
 .intro-container {
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 .intro-text {
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 1px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 1px;
 }
 
 .copy {
-    text-align: right;
-    font-size: 15px;
-    margin-right: 10px;
+	text-align: right;
+	font-size: 15px;
+	margin-right: 10px;
 }
 
+
 /* Postcards presentation */
+
 #postcard {
-    max-width:900px;
-    margin:0 auto; 
-    padding:0;
-    background-color:#ffffff;
-    margin-top: 35px;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #ffffff;
+	margin-top: 35px;
 }
 
 #postcard li {
-    display: inline-block;
-    display:inline;
-    width:25%;
-    vertical-align:middle;
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
-    margin-bottom: 100px;
+	display: inline-block;
+	display: inline;
+	width: 25%;
+	vertical-align: middle;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 100px;
 }
-        
+
 .postcard-cell {
-    margin:10px;
-    display: block;
-    position: relative;
-    overflow:hidden;
+	margin: 10px;
+	display: block;
+	position: relative;
+	overflow: hidden;
 }
-        
+
 .postcard-img {
-    display:block;
-    width: 100%;
-    height: auto;
-    border:none;
-    transform:scale(1);
-    transition:all 1s;
+	display: block;
+	width: 100%;
+	height: auto;
+	border: none;
+	transform: scale(1);
+	transition: all 1s;
 }
 
 #postcard li:hover .postcard-img {
-    transform:scale(1.05);
+	transform: scale(1.05);
 }
-        
+
 .postcard-overlay {
-    position: absolute;
-    display:block;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
-    background-size:100%;
-    opacity:0;
-    transition:all 0.6s;
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background: linear-gradient(45deg, rgba(254, 172, 94, 0.5), rgba(199, 121, 208, 0.5), rgba(75, 192, 200, 0.5));
+	background-size: 100%;
+	opacity: 0;
+	transition: all 0.6s;
 }
 
 #postcard li:hover .postcard-overlay {
-    opacity:0.8;
+	opacity: 0.8;
 }
 
 .postcard-text {
-    display:block;
-    padding:0 30px;
-    box-sizing:border-box;
-    position:absolute;
-    left:0;
-    width:100%;
-    text-align:center;
-    font-size:24px;
-    font-family: 'source sans pro';
-    top:40%;
-    color:#ffffff;
-    text-shadow: 2px 2px 4px #000000;
-    opacity:0;
-    filter:alpha(opacity=0);
-    transform:translateY(-20px);
-    transition:all .3s;
+	display: block;
+	padding: 0 30px;
+	box-sizing: border-box;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'source sans pro';
+	top: 40%;
+	color: #ffffff;
+	text-shadow: 2px 2px 4px #000000;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transform: translateY(-20px);
+	transition: all .3s;
 }
 
 #postcard li:hover .postcard-text {
-    transform:translateY(0px);
-    opacity:0.9;
+	transform: translateY(0px);
+	opacity: 0.9;
 }
 
 @media (max-width: 9000px) {
-    #postcard li {
-        width:25%;
-    }
+	#postcard li {
+		width: 25%;
+	}
 }
 
 @media (max-width: 700px) {
-    #postcard li {
-        width:33.33%;
-    }
+	#postcard li {
+		width: 33.33%;
+	}
 }
 
 @media (max-width: 550px) {
-    #postcard li {
-        width:50%;
-    }
+	#postcard li {
+		width: 50%;
+	}
 }
 
+
 /* Beaches text */
+
 .next-swim {
-    font-size: 50px;
+	font-size: 50px;
 }
 
 .chair-text {
-    margin-top: 50px; 
+	margin-top: 50px;
 }
 
 .beaches-text {
-    font-size: 20px;
-    text-align: left;
+	font-size: 20px;
+	text-align: left;
 }
 
 .img-fluid2 {
-    height: 470px;
-    margin-bottom: 20px;
+	height: 470px;
+	margin-bottom: 20px;
 }
 
 .chair-btn {
-    margin-left: 0px; 
+	margin-left: 0px;
 }
 
 .chair-btn:hover {
-    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
-    border-color: #ffffff;
+	background: linear-gradient(45deg, rgba(254, 172, 94, 0.5), rgba(199, 121, 208, 0.5), rgba(75, 192, 200, 0.5));
+	border-color: #ffffff;
 }
 
+
 /* Beach cards */
+
 .container-cards {
-    display: inline; 
-    text-align: center; 
+	display: inline;
+	text-align: center;
 }
-  
+
 .card {
-    margin: 0 auto;
-    float: none;
-    margin-bottom: 30px;
-    margin-top: 30px;   
-    font-family: Source Sans Pro; 
+	margin: 0 auto;
+	float: none;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-family: Source Sans Pro;
 }
 
 .card-text p {
-    font-size: 20px; 
+	font-size: 20px;
 }
 
 .card-title {
-    font-size: 35px;
-    font-weight: bolder;
-    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all .2s;
+	font-size: 35px;
+	font-weight: bolder;
+	background: linear-gradient(45deg, rgba(254, 172, 94, 0.5), rgba(199, 121, 208, 0.5), rgba(75, 192, 200, 0.5));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: all .2s;
 }
 
 
 /* Marker text */
+
 .beach-icons {
-    color: rgb(1, 150, 113);
+	color: rgb(1, 150, 113);
 }
 
 .beach-icon1 {
-    color: rgb(1, 150, 113);
-    text-align: left;
+	color: rgb(1, 150, 113);
+	text-align: left;
 }
 
 .beach-icon2 {
-    color: rgb(1, 150, 113);
-    margin-left: 10px;
+	color: rgb(1, 150, 113);
+	margin-left: 10px;
 }
 
 h3 {
-    color: rgb(1, 150, 113);
-    font-family: permanent marker;
-    font-size: 30px;
-    letter-spacing: 3px;
+	color: rgb(1, 150, 113);
+	font-family: permanent marker;
+	font-size: 30px;
+	letter-spacing: 3px;
 }
 
+
 /* Map */
+
 .beaches-btns {
-text-align: center;
-margin-bottom: 50px;
+	text-align: center;
+	margin-bottom: 50px;
 }
 
 .destination-btns {
-   width: 130px;
-   height: 50px;
-   margin-bottom: 40px;
-   font-size: 12px;
+	width: 130px;
+	height: 50px;
+	margin-bottom: 40px;
+	font-size: 12px;
 }
 
 #map {
-    width: 80%;
-    height: 500px;
-    margin: 0 auto;
+	width: 80%;
+	height: 500px;
+	margin: 0 auto;
 }
 
 .pink_logo {
-    margin-left: 550px;
-    width: 230px;
-    height: 230px;
-    margin-top: 40px;
-    margin-bottom: 20px;
+	margin-left: 550px;
+	width: 230px;
+	height: 230px;
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 
+
 /* Contact */
+
 #exampleFormControlInput1 {
-    width: 60%;
+	width: 60%;
 }
 
 .address {
-    color: #774936;
-    margin-bottom: 50px;
-    text-align: center;
+	color: #774936;
+	margin-bottom: 50px;
+	text-align: center;
 }
 
 .contact-container1 {
-    margin-bottom: 50px;
-    text-align: center;
+	margin-bottom: 50px;
+	text-align: center;
 }
 
 .contact-container {
-    margin-bottom: 10px;
-    text-align: center;
-    margin-bottom: 50px;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-bottom: 50px;
 }
 
 .contact_img {
-    margin-top: 40px;
-    margin-bottom: 20px;
+	margin-top: 40px;
+	margin-bottom: 20px;
 }
 
 .contact_btn {
-    float: left;
-    width: 130px;
+	float: left;
+	width: 130px;
 }
 
 .mb-3 {
-    text-align: left;
+	text-align: left;
 }
 
+
 /* Footer */
+
 #footer {
-    color: #000000;
-    border-top: 60px;
-    border-bottom: 60px;
+	color: #000000;
+	border-top: 60px;
+	border-bottom: 60px;
 }
 
 .social-links {
-    text-align: center;
-    margin-bottom: 20px;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    margin-top: 20px;
-    border-radius: 50% 20% / 10% 40%;
-    font-size: 20px;
-    line-height: 7px;
-    text-align: center;
-    color: #000000;
-    background-color: #ffffff;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+	width: 32px;
+	height: 32px;
+	padding: 12px 0;
+	margin-top: 20px;
+	border-radius: 50% 20% / 10% 40%;
+	font-size: 20px;
+	line-height: 7px;
+	text-align: center;
+	color: #000000;
+	background-color: #ffffff;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    color: #fff;
-    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
+	color: #fff;
+	background: linear-gradient(45deg, rgba(254, 172, 94, 0.5), rgba(199, 121, 208, 0.5), rgba(75, 192, 200, 0.5));
 }
 
 .copy-footer {
-    font-size: 14px;
-    margin-bottom: 20px;
+	font-size: 14px;
+	margin-bottom: 20px;
 }
 
 .row {
-margin: 0;    
+	margin: 0;
 }
 
+
 /* Modal */
-.modal-header{
-    background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
+
+.modal-header {
+	background: linear-gradient(45deg, rgba(254, 172, 94, 0.5), rgba(199, 121, 208, 0.5), rgba(75, 192, 200, 0.5));
 }
 
 .modal-title {
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: Source Sans Pro;
-    color: #ffffff;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: Source Sans Pro;
+	color: #ffffff;
 }
 
 #close-button {
-    font-family: Source Sans Pro;
+	font-family: Source Sans Pro;
 }
 
-#button {
-  display: inline-block;
-  background-color: #FF9800;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 4px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  transition: background-color .3s, 
-    opacity .5s, visibility .5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000;
-}
-
-#button::after {
-  content: "\f077";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: #fff;
-}
-
-#button:hover {
-  cursor: pointer;
-  background-color: #333;
-}
-
-#button:active {
-  background-color: #555;
-}
-
-#button.show {
-  opacity: 1;
-  visibility: visible;
-}
 
 /* Back to top, code from https://getflywheel.com/*/
+
 .top-link {
-  transition: all .25s ease-in-out;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  display: inline-flex;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  margin: 0 3em 3em 0;
-  border-radius: 50% 20% / 10% 40%;
-  padding: .25em;
-  width: 80px;
-  height: 80px;
-  background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
-  color: #000000;
-  
-  
-  &.show {
-    visibility: visible;
-    opacity: 1;
-  }
-  
-  &.hide {
-    visibility: hidden;
-    opacity: 0;
-  }
-  
-  &:hover {
-    background-color: #E8E8E8;
-  }
-
-
-@media screen and (max-width: 350px) {
-    .navbar-brand {
-        margin-left: 0px;
-        font-size: 19px;
-    }
-}
-
+	transition: all .25s ease-in-out;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	display: inline-flex;
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+	margin: 0 3em 3em 0;
+	border-radius: 50% 20% / 10% 40%;
+	padding: .25em;
+	width: 80px;
+	height: 80px;
+	background: linear-gradient(45deg, rgba(254, 172, 94, 0.5), rgba(199, 121, 208, 0.5), rgba(75, 192, 200, 0.5));
+	color: #000000;
+	&.show {
+		visibility: visible;
+		opacity: 1;
+	}
+	&.hide {
+		visibility: hidden;
+		opacity: 0;
+	}
+	&:hover {
+		background-color: #E8E8E8;
+	}
+	@media screen and (max-width: 350px) {
+		.navbar-brand {
+			margin-left: 0px;
+			font-size: 19px;
+		}
+	}

@@ -11,7 +11,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,900;1,900&display=swap" rel="stylesheet">
         <link rel="icon" href="assets/images/palm.png" type="image/png"/>
         <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
-
         <!-- EmailJS SDK -->
         <script type="text/javascript"
             src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
@@ -21,7 +20,6 @@
             })();
         </script>
         <!-- /emailJS SDK -->
-
     </head>
     <body>
         <!-- Nav -->
@@ -42,7 +40,6 @@
             </div>
         </nav>
         <!-- /nav -->
-        
         <!-- Contact text -->
         <div class="container contact-container1">
             <section class="contact">
@@ -62,42 +59,40 @@
             </section>
         </div>
         <!-- contact text -->
-       
-
-<!-- Contact form -->
-<section id="contact">
-    <div class="container contact-container">
-        <div class="row d-flex justify-content-center pl-0">
-            <div class="col-12 col-6 padding margin">
-                <form id="contactForm">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="beachbum@sand.com" required>
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <!-- Contact form -->
+        <section id="contact">
+            <div class="container contact-container">
+                <div class="row d-flex justify-content-center pl-0">
+                    <div class="col-12 col-6 padding margin">
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="beachbum@sand.com" required>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Did we not mention your favourite beach, please let us know!</label>
+                                <textarea name="formControl" class="form-control" id="exampleFormControlTextarea1" placeholder="My number 1 beach in Skåne is..." rows="5" required></textarea>
+                            </div>
+                            <div class="form-check mb-3">
+                                <input name="checkbox" type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Yes, I would like to subscribe to our email newsletter "BeachBums in Skåne"!</label>
+                            </div>
+                            <button type="submit" class="btn btn-dark contact_btn">Send</button>
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Did we not mention your favourite beach, please let us know!</label>
-                        <textarea name="formControl" class="form-control" id="exampleFormControlTextarea1" placeholder="My number 1 beach in Skåne is..." rows="5" required></textarea>
-                    </div>
-                    <div class="form-check mb-3">
-                    <input name="checkbox" type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Yes, I would like to subscribe to our email newsletter "BeachBums in Skåne"!</label>
+                    </form>
                 </div>
-                <button type="submit" class="btn btn-dark contact_btn">Send</button>
             </div>
-                </form>
             </div>
-        </div>
-    </div>
-</section>
-<!-- /contact form -->
-
+        </section>
+        <!-- /contact form -->
         <!-- Img logo -->
         <div class="text-center contact_img">
-            <img src="assets/images/logo.png" class="rounded" alt="Beach Please white logo">
+            <a href="index.html">
+                <img src="assets/images/logo.png" class="rounded" alt="Beach Please white logo">
+            </a>
         </div>
         <!-- /img logo -->
-
         <!-- Footer -->
         <footer class="mt-auto socialmedia" id="footer">
             <div class="container">
@@ -153,28 +148,25 @@
             </div>
         </footer>
         <!-- /footer -->
-
-<!-- Modal -->
-<div id="mail-modal" class="modal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Great suggestion!</h5>
-      </div>
-      <div class="modal-body">
-        <p>Thanks for your contribution, it's much appreciated!</p>
-        <p>Peace!</p>
-        <p>//Sandy & the other beach bums at Beach Please</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" id="close-button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /modal -->
-
-
+        <!-- Modal -->
+        <div id="mail-modal" class="modal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Awsome suggestion!</h5>
+                    </div>
+                    <div class="modal-body">
+                        <p>Thanks for your contribution, it's much appreciated!</p>
+                        <p>Peace!</p>
+                        <p>//Sandy & the other beach bums at Beach Please</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="close-button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /modal -->
         <!-- Link to sendEmail.js file -->
         <script src="assets/js/sendEmail.js"></script>
         <!-- /link to sendEmail.js file -->
@@ -183,11 +175,11 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     </body>
-
- <!-- Back to top button -->
-        <a class="top-link hide" href="" id="js-top">
-  <i class="fas fa-angle-up fa-3x" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></i>
-</a>
-<!-- /back to top button -->
-
+    <!-- Back to top button -->
+    <a class="top-link hide" href="" id="js-top">
+        <i class="fas fa-angle-up fa-3x" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z"/>
+        </i>
+    </a>
+    <!-- /back to top button -->
 </html>
