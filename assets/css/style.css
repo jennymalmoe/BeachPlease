@@ -33,7 +33,6 @@ h5 {
     border-color: #ffffff;
 }
 
-
 /* Navbar */
 .navbar {
     line-height: 50px;
@@ -49,14 +48,12 @@ h5 {
     letter-spacing: 4px;
     font-family: permanent marker;
     text-shadow: 2px 2px #f8afe6;
-    
 }
 
 .navbar-brand:hover {
     color: #fff;
     background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
     border-radius: 50% 20% / 10% 40%;
-    
 }
 
 .nav-link {
@@ -68,7 +65,6 @@ h5 {
     color: #fff;
     background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
     border-radius: 50% 20% / 10% 40%;
-    
 }
 
 .nav-item.active a {
@@ -82,21 +78,16 @@ h5 {
 /* Hero */
 .img-fluid {
     height: 900px;
-    
     background: url("../images/hero_img.png");
-    
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     margin: 0 auto;
     transform: translate(-50%, -50%);
-    
-    
 }
 
 .hero-outer {
@@ -104,7 +95,6 @@ h5 {
    width: 100%;
    overflow: hidden; 
    position: relative;
-   
 }
 
 @keyframes hero-zoom {
@@ -129,7 +119,6 @@ h5 {
   background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
   position: absolute;
   transform: translate(-50%, -50%);
-  
 }
 
 .hero-text h2 {
@@ -151,7 +140,6 @@ h5 {
 .btn-1 {
     margin-left: 30px;
     margin-top: 10px;
-    
 }
 
 /* Fist page intro text */
@@ -173,7 +161,7 @@ h5 {
     margin-right: 10px;
 }
 
-/* Beaches presentation */
+/* Postcards presentation */
 #postcard {
     max-width:900px;
     margin:0 auto; 
@@ -195,7 +183,6 @@ h5 {
         
 .postcard-cell {
     margin:10px;
-    
     display: block;
     position: relative;
     overflow:hidden;
@@ -227,6 +214,7 @@ h5 {
     opacity:0;
     transition:all 0.6s;
 }
+
 #postcard li:hover .postcard-overlay {
     opacity:0.8;
 }
@@ -249,6 +237,7 @@ h5 {
     transform:translateY(-20px);
     transition:all .3s;
 }
+
 #postcard li:hover .postcard-text {
     transform:translateY(0px);
     opacity:0.9;
@@ -273,20 +262,17 @@ h5 {
 }
 
 /* Beaches text */
-
 .next-swim {
     font-size: 50px;
 }
 
 .chair-text {
-    margin-top: 50px;
-    
+    margin-top: 50px; 
 }
 
 .beaches-text {
     font-size: 20px;
     text-align: left;
-    
 }
 
 .img-fluid2 {
@@ -317,7 +303,6 @@ h5 {
     font-family: Source Sans Pro; 
 }
 
-
 .card-text p {
     font-size: 20px; 
 }
@@ -326,9 +311,9 @@ h5 {
     font-size: 35px;
     font-weight: bolder;
     background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all .2s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .2s;
 }
 
 
@@ -395,7 +380,6 @@ margin-bottom: 50px;
 .contact-container1 {
     margin-bottom: 50px;
     text-align: center;
-    
 }
 
 .contact-container {

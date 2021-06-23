@@ -165,6 +165,7 @@ Tools and editors:
 
 * [Am I Responsive](http://ami.responsivedesign.is/) - used for testing responsiveness of the site and mock up image.
 * [Google Maps](https://www.google.se/maps) - used for map image.
+* Google cloud platform
 
 MSP2 bokstavsordning
 
