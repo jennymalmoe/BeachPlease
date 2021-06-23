@@ -1,3 +1,4 @@
+//Code from Google Maps JavaScript API and some from https://github.com/farrelleoin93/Milestone-2/blob/master/assets/js/maps.js.
 //Declare a function to create the map
 function initMap() {
 

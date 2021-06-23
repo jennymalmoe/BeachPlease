@@ -86,7 +86,7 @@ Users goals of the website is to get information about the beaches of Skåne and
 
 * Display information about the different beaches and about Skåne.  
 
-* Be able to reach out to site owner/Beach Please!
+* Be able to reach out to site owner/Beach Please and add my own suggestions!
 
 * Social medialinks.
 
@@ -105,6 +105,10 @@ A UX study (Lin, 2004) found that good use of whitespace between paragraphs, and
 You definitely want to use whitespace in your landing page, because of its impact on user experience. Font color, cover photo, and all components stand out better surrounded by whitespace.
 
 youth short compelling copy both on text and btn:s. call to action, btn clickable. 
+
+Smooth scrolling for better ux small effort clicking back to top, logo, brandname. 
+
+Footer element to be relevant. 
 ## Skeleton 
 
 **Wireframes:** 
@@ -124,7 +128,7 @@ The page consists of a white base with pastel colors and black text and elements
 
 **Typography**
 
-Source Sans Pro font is the main font used throughout the site with Permanent Marker as the logo and headers font. Source Sans Pro is a sans serif typeface and feels modern, clean, emotionless font and it's intended use is for user interfaces so it renders very well at small sizes. It's subtle and it doesn´t take any attention away from the content. The site has focused to get the visitors attention by powerful headlines. If the headline hooks the visitor, they tend to continue to read the body, if it doesn't they’ll leave. The headline is catchy, in bigger and bolder font, short, inspiring and get the visitor emotionally engaged. The charismatic combination of the two typefaces compliments the artistic aesthetic and entertaining theme set by the colour palette. 
+Source Sans Pro font is the main font used throughout the site with Permanent Marker as the logo and headers font. Source Sans Pro is a sans serif typeface and feels modern, clean, emotionless font and it's intended use is for user interfaces so it renders very well at small sizes. It's subtle and it doesn´t take any attention away from the content. The site has focused to get the visitors attention by powerful headlines. If the headline hooks the visitor, they tend to continue to read the body, if it doesn't they’ll leave. The headlines font is funny and bigger, bolder and inspiring and will hopefully get the visitor emotionally engaged and get a feel for the easygoing funny site. The charismatic combination of the two fonts compliments the artistic aesthetic and entertaining theme set by the colour palette. 
 
 
 **Imagery**
@@ -185,30 +189,33 @@ Tools and editors:
 
 ### Existing features
 
-Smooth scrolling for better ux
-map
-contact
-
-
 Home page:
-* CTA at homepage allows user to take part of a free trail offer by clicking the yellow button. 
-* User can click "Read more" button under the three text columns on homepage and thereby get to classespage and read more about what the studio offers. 
-* User can click the alert text about contact us (link obvios due to blue color of the text) ang get linked to mailservice.
+* CTA button at homepage allows user to get directly to the beaches page. 
+* User can click links (rent a bike, public transport, hotels) in text content to be redirected to new site in new tab. 
+* User can hover beaches images to get a hint of information, suggesting user to "read more" by clicking the image. The images are linked directly to that beach section on beaches page.
 
-Classes page:
-* CTA under each classes description allows user to take part of a free trail offer by clicking "YEAH! I want a free trial" button.
+Beaches page:
+* CTA to get user to map page.
+* All beach cards are linked to map page.
 
-Membership page:
-* CTA at membersip page allows user to take part of a free trail offer by clicking the yellow button. 
-* User can browse carousel at the "Membership" page to see different images. 
+Map page:
+* User can click beach buttons to see exacly where the beach is located (CTA).
+* User get information about facilities etc by markers texts.
+* User can get redirected to public transport information site in new tab.
+* User can zoom map for better understanding where the beach is located.
+* User can drag the "man" and position him on a location to get street view. 
+* User can choose between map/satellite view.
 
-About Us page:
-* Contact form in about us page allows user to contact the studio by filling out the form.
-* User can send a question or message by filling out the form in "About Us" page.  
+Contact page:
+* Contact form at contact page allows user to send suggestions to siteowner by filling out the form.
+* User can choose to subscribe to newsletter.  
+* User get confirmation that suggestion is succesfully sendt. 
 
 General: 
 * User can always return to the homepage by clicking the brand name in upper left corner (strategely placed top-left). 
-* Footer is conventionally placed at the bottom of the screen, allowing users to click on the icons and get redirected to respektiv page in new tabs outside of the site.. 
+* All logo images are linked to index.html.
+* Back-to-top button is consistent throughout the site and lets user retur to top of the page quickly (by using smooth scrolling). 
+* Footer is conventionally placed at the bottom of the screen, allowing users to click on the icons and get redirected to related page in new tab outside of the site. 
 
 
 ### Features left to implement
@@ -227,9 +234,9 @@ On the scroll of the page, the hero image would zoom in.
 
 !!!However, the documentation is quite brief lacking necessary sections for the development life cycle such as testing and features for future release.
 
-First time testing. I used an online tool called Lambdatest and the chromium dev tools for testing. I made an spreadsheet containing test results. You can find this here.
+I have been testing using Chrome Dev tool throughout, from day one. First time testing. 
 
-Ive tested the CSS with CSS Validator which told me that all was good.
+all of my own code passed through all validators, but some of my borrowed code has some errors, all features works and looks fine though. I chose to stick with the back-to-top button though the errors, since I feel it really completes the look and feel of my page style. I made that choice (also for my js validation that had errors) based on that all features works as expected and it looks as expected.
 
 The HTML ive tested with HTML Validator which gave me the following results:
 
@@ -348,13 +355,11 @@ Find the repository, click the fork button (top right corner, under your account
 Make a local clone: 
 Find the repository, click "Code" button, copy the link shown, in Gitpod, change the directory to the location you would like the cloned directory to be located, type "git clone" and paste the link you earlier copied, press enter. 
 
-
-
 ## Credits
 * My mentor Oluwaseun Owonikoko for helpfull feedback througout the project.
 * Code Institute tutor support.
 * Fellow students on Slack for a helping hand when I've got stuck.
-* Google for help 24/7!
+* Google!
 
 
 

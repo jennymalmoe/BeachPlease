@@ -499,18 +499,9 @@ h3 {
 	width: 80px;
 	height: 80px;
 	background: linear-gradient(45deg, rgba(254, 172, 94, 0.5), rgba(199, 121, 208, 0.5), rgba(75, 192, 200, 0.5));
-	color: #000000;
-	&.show {
-		visibility: visible;
-		opacity: 1;
-	}
-	&.hide {
-		visibility: hidden;
-		opacity: 0;
-	}
-	&:hover {
-		background-color: #E8E8E8;
-	}
+    color: #000000;
+}
+
 	@media screen and (max-width: 350px) {
 		.navbar-brand {
 			margin-left: 0px;

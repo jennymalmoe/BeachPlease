@@ -1,4 +1,4 @@
-// get contactForm
+// ContactForm from https://www.emailjs.com/ and edited together with my mentor
 const form = document.getElementById('contactForm');
 
 form.addEventListener("submit", function (event) {
