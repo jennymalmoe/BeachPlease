@@ -43,9 +43,10 @@ ___
 
 As a first time visitor I want to:  
 
+* get inspired by the site, the beaches, the design, the beauty of Skåne. Get a positive feel. 
 * get information about the beaches in Skåne so I can make a decision whether or not it is interesting information for me. Does the page offers what I want and need? 
 * be able to easily navigate and find general information about the beaches, location, information about public transport to get to a beach etc.
-* get a wow impression of Skåne (the beaches in Skåne). Does it seem like a credible and inspiring place to me? Is it valuble enough for me, as a user, to stay and explore the site, and possibly even return?
+* get a wow impression of Skåne (the beaches in Skåne). Does it seem like an inspiring place to me? Does it make me consider visit one of the beaches? Is the site and its content valuble enough for me, as a user, to stay and explore the site and the beaches, and possibly even return?
 * be able to see beaches located on a map.
 * find out how beaches in Skåne stands out from other beaches (the pages USP's *get inspired and visit one of Skånes beaches*), why should I visit Skåne (Skånes beaches) instead of someone else? 
 
@@ -217,7 +218,7 @@ Add more beaches.
 
 Include more information at markers pop up to give the user an even more information about the beach.
 
-Add more links to relevant facilities like restaurants, bed and breakfast, camping places etc.
+Add more links to relevant facilities like restaurants, bed and breakfast, camping places, travel agencies etc.
 
 Possibly collaborations with relevant businesses. 
 
